@@ -1,4 +1,4 @@
-﻿# FEP â†’ AGI: do prompt Ã  intenÃ§Ã£o
+# FEP â†’ AGI: do prompt Ã  intenÃ§Ã£o
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,7 +6,7 @@
 </div>
 
 
-Curso INEMA.CLUB PRO (formato v5, pÃºblico 40+ nÃ£o-programador) que amarra a evoluÃ§Ã£o dos cursos de prompt do INEMA numa trilha sÃ³: da era do prompt (FEP) ao contexto (FEP2), Ã  skill, Ã  intenÃ§Ã£o (Arquitetura de IntenÃ§Ã£o), ao agente e Ã  orquestraÃ§Ã£o (Super-Agentes), atÃ© a virada de setembro de 2026.
+Curso ARCKHÉ AI PRO (formato v5, pÃºblico 40+ nÃ£o-programador) que amarra a evoluÃ§Ã£o dos cursos de prompt do ARCKHÉ numa trilha sÃ³: da era do prompt (FEP) ao contexto (FEP2), Ã  skill, Ã  intenÃ§Ã£o (Arquitetura de IntenÃ§Ã£o), ao agente e Ã  orquestraÃ§Ã£o (Super-Agentes), atÃ© a virada de setembro de 2026.
 
 **Tese:** o prompt nÃ£o morreu. Deixou de ser o trabalho inteiro e passou a ser o briefing. Antes vocÃª promptava a tarefa; agora vocÃª orienta o agente.
 
@@ -16,7 +16,7 @@ Curso INEMA.CLUB PRO (formato v5, pÃºblico 40+ nÃ£o-programador) que amarra 
 - `capa/capa.png` â€” capa oficial 1280Ã—720
 - `PLANO-CURSO.md` â€” plano aprovado antes da escrita
 
-Publicado em https://inematds.github.io/FEP-AGI/
+Publicado em https://linnoff88-dev.github.io/
 
 ---
 

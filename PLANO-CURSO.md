@@ -3,13 +3,13 @@
 > **Tese do curso:** o prompt não morreu. Ele deixou de ser o programa inteiro e virou o briefing.
 > **Frase-âncora do curso:** *Antes você promptava a tarefa. Agora você orienta o agente.*
 
-**Status (2026-09-07):** curso escrito, publicado em https://inematds.github.io/FEP-AGI/ e catalogado no portal. O usuário aprovou a intenção e as 9 aulas e pediu para seguir sem responder o Passo 0; as respostas de descoberta foram **derivadas** deste plano e registradas no comentário do `<head>` do `curso.html` (público, quatro profissões, tempo, plataforma neutra), onde podem ser vetadas ou ajustadas. Os itens marcados `[pendente]` na §3 e as decisões da §7 foram resolvidos dessa forma.
+**Status (2026-09-07):** curso escrito, publicado em https://linnoff88-dev.github.io/ e catalogado no portal. O usuário aprovou a intenção e as 9 aulas e pediu para seguir sem responder o Passo 0; as respostas de descoberta foram **derivadas** deste plano e registradas no comentário do `<head>` do `curso.html` (público, quatro profissões, tempo, plataforma neutra), onde podem ser vetadas ou ajustadas. Os itens marcados `[pendente]` na §3 e as decisões da §7 foram resolvidos dessa forma.
 
 ---
 
 ## 1. O que este curso é (e o que ele não é)
 
-É a **trilha-mapa** que amarra cinco cursos INEMA já publicados numa única linha de evolução, com uma aula por degrau, e aponta para cada curso como aprofundamento:
+É a **trilha-mapa** que amarra cinco cursos ARCKHÉ já publicados numa única linha de evolução, com uma aula por degrau, e aponta para cada curso como aprofundamento:
 
 | Era (espinha) | Curso-fonte já publicado | O que este curso pega de lá |
 |---|---|---|
@@ -130,7 +130,7 @@ Legenda: **tipo** = `data-kind` · **prática** = `data-mode` (nunca `codigo`) �
 - **Kicker:** Fecho · Autodiagnóstico e plano de 30 dias
 - **Promessa:** Ao fim desta aula você consegue situar você e o seu setor na escada das 5 eras, escolher um único degrau a subir nos próximos 30 dias e escrever o briefing de intenção que abre esse degrau.
 - **Tipo:** PRÁTICA/INTEGRAÇÃO · **Prática:** `tarefa` (15 min) · **Tempo:** 25 min
-- **Núcleo:** os sinais de cada era no dia a dia (como reconhecer em que degrau alguém trabalha) · os erros de pular degrau (querer orquestrar sem contexto) · o que continua humano em qualquer era · o mapa de aprofundamento: qual curso INEMA cobre o degrau que você escolheu.
+- **Núcleo:** os sinais de cada era no dia a dia (como reconhecer em que degrau alguém trabalha) · os erros de pular degrau (querer orquestrar sem contexto) · o que continua humano em qualquer era · o mapa de aprofundamento: qual curso ARCKHÉ cobre o degrau que você escolheu.
 - **Metáfora:** o check-up anual: não muda a idade, muda o que você faz no próximo ano.
 - **Fonte:** costura de todos os anteriores; envio para FEP, FEP2, Arq. Intenção, agi-ready, agi-pratica conforme o degrau escolhido.
 - **Artefato:** "escada aplicada ao meu setor" com o degrau atual, o próximo, e o briefing de intenção de 5 linhas para os 30 dias.
@@ -165,4 +165,4 @@ Metáforas de cold-open deste plano (bilhete na geladeira, receita da avó, past
 1. As cinco perguntas do protocolo de descoberta (§3).
 2. Plataforma dos exemplos: neutra (ChatGPT e Claude lado a lado) ou só uma.
 3. Manter 9 aulas ou cortar para 7 (candidatas a fusão: 2+3 numa só "Eras 1 e 2"; 6+7 numa só "agente e orquestração").
-4. Nome do curso e do repo: pasta é `FEP-AGI`, logo o repo seria `inematds/FEP-AGI`. Título provisório: **"FEP → AGI: do prompt à intenção"**.
+4. Nome do curso e do repo: pasta é `FEP-AGI`, logo o repo seria `linnoff88-dev/FEP-AGI`. Título provisório: **"FEP → AGI: do prompt à intenção"**.
