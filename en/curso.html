@@ -13,27 +13,27 @@
 <script>(function(){try{var m=document.querySelector('meta[name=curso]');var CK=(m&&m.content)||'v5:curso';var s=JSON.parse(localStorage.getItem(CK));if(s&&s.prefs&&s.prefs.theme)document.documentElement.setAttribute('data-theme',s.prefs.theme);}catch(e){}})();</script>
 <!--
   PROTOCOLO DE DESCOBERTA (formato-curso-v5, Passo 0). Registrado em 2026-09-07.
-  O usuário aprovou o plano (PLANO-CURSO.md) e a intenção final e pediu para seguir sem responder
+  O usuário aprovou o plano (PLANO-CURSO.md) e a intençêo final e pediu para seguir sem responder
   as 5 perguntas; as respostas abaixo foram DERIVADAS do plano e do catálogo ARCKHÉ e ficam aqui
   para o usuário vetar ou ajustar.
-  - Intenção final (aprovada): que a pessoa pare de escrever instruções para a IA e passe a orientar
+  - Intençêo final (aprovada): que a pessoa pare de escrever instruções para a IA e passe a orientar
     um agente, sabendo em que degrau está e qual é o próximo.
   - Público específico: profissionais 40+ que já usam IA de chat no trabalho (donos de pequenos
-    negócios, autônomos, coordenadores de área), não-programadores, que sentem que "prompt bom"
-    deixou de ser suficiente e não sabem o que vem depois.
+    negócios, autônomos, coordenadores de área), nêo-programadores, que sentem que "prompt bom"
+    deixou de ser suficiente e nêo sabem o que vem depois.
   - Profissões-alvo (≥2): corretora de imóveis autônoma (Cláudia) · dono de escola de idiomas (Sérgio) ·
     coordenadora administrativa de clínica (Renata) · dono de agência de viagens (Paulo).
     Diferentes das dos dois cursos gerados hoje (agi-ready/agi-pratica: RH, marketing, atendimento,
     loja online) e do pffia (contador, gerente comercial, analista financeiro, advogado) — anti-clone.
   - Familiaridade com tecnologia: usa ChatGPT, Claude ou Gemini no dia a dia, e-mail, planilha e o
-    sistema do próprio negócio; nunca programou, não usa linha de comando.
+    sistema do próprio negócio; nunca programou, nêo usa linha de comando.
   - Resultado prático esperado: situar a si e ao próprio setor na escada das 5 eras (prompt → contexto →
-    skill → agente → orquestração), escolher um degrau para 30 dias e sair com dois artefatos prontos:
-    um briefing de intenção e uma skill de uma página para uma responsabilidade real.
-  - Tempo por sessão: 20–25 minutos por aula.
+    skill → agente → orquestraçêo), escolher um degrau para 30 dias e sair com dois artefatos prontos:
+    um briefing de intençêo e uma skill de uma página para uma responsabilidade real.
+  - Tempo por sessêo: 20–25 minutos por aula.
   - Plataforma dos exemplos: neutra (ChatGPT e Claude lado a lado; skills existem nos dois).
-  Fontes: cursos ARCKHÉ FEP, FEP2, Arquitetura de Intenção (4 dias e JARVIS), agi-ready, agi-pratica,
-  e o texto do usuário sobre "fim do micro-prompting" (eras 1–5, hierarquia intenção→objetivo→prompt→skill).
+  Fontes: cursos ARCKHÉ FEP, FEP2, Arquitetura de Intençêo (4 dias e JARVIS), agi-ready, agi-pratica,
+  e o texto do usuário sobre "fim do micro-prompting" (eras 1–5, hierarquia intençêo→objetivo→prompt→skill).
 -->
 <style>
   .view{display:none}.view.active{display:block}
@@ -188,9 +188,9 @@
 <!-- ex-prof --><p>Renata, an administrative coordinator at a clinic, needed to reduce missed appointments. Her old request said how to send reminders. The new one stated the destination: “I want fewer than 10% missed appointments; don’t bother people who have already confirmed; never mention the reason for the appointment in the message; use the schedule and history; a good result means fewer missed appointments without patient complaints.” Five sentences, and AI suggested three approaches she hadn’t thought of.</p>
 <div class="quiz" data-answer="b">
 <p class="qk">Test yourself</p><p class="q">Paulo, the owner of a travel agency, writes: "put together a 7-day itinerary in Portugal: day 1 Lisbon, day 2 Sintra, day 3 Óbidos...". What’s missing from this request to make it a destination rather than a path?</p>
-<button class="opt" data-fb="Mais detalhe por dia é mais caminho, não mais destino. O pedido já está preso ao roteiro que Paulo imaginou." data-k="a">more details about each day</button>
-<button class="opt" data-fb="Certo. Para quem é a viagem, o que importa para esse cliente, o que não pode acontecer (orçamento, mobilidade) e o que seria um roteiro bom. Com isso, a IA pode propor um roteiro melhor que o de Paulo." data-k="b">the objective, what matters, the constraints, and the criteria for good</button>
-<button class="opt" data-fb="Pedir para a IA 'ser criativa' não substitui dizer o destino. Sem saber para quem é e o que importa, criatividade vira chute." data-k="c">a request for the AI to be more creative</button>
+<button class="opt" data-fb="Mais detalhe por dia é mais caminho, nêo mais destino. O pedido já está preso ao roteiro que Paulo imaginou." data-k="a">more details about each day</button>
+<button class="opt" data-fb="Certo. Para quem é a viagem, o que importa para esse cliente, o que nêo pode acontecer (orçamento, mobilidade) e o que seria um roteiro bom. Com isso, a IA pode propor um roteiro melhor que o de Paulo." data-k="b">the objective, what matters, the constraints, and the criteria for good</button>
+<button class="opt" data-fb="Pedir para a IA 'ser criativa' nêo substitui dizer o destino. Sem saber para quem é e o que importa, criatividade vira chute." data-k="c">a request for the AI to be more creative</button>
 <p class="qfb"></p>
 </div>
 <div class="mobfig" data-mobfig="3"></div>
@@ -212,8 +212,8 @@
 <p class="psafe">You just chat with an AI chat tool (ChatGPT, Claude, Gemini, or another one). Nothing is sent to any client or changed in any system. If the response seems odd, delete the conversation and paste it again.</p>
 <div class="pcodewrap"><button class="pcopy" type="button">copy</button><pre class="pcode">O que eu quero que aconteça: &lt;o resultado, em uma frase, como "um roteiro que este casal aprove na primeira leitura"&gt;.
 O que importa neste caso: &lt;duas ou três coisas que pesam de verdade, como "tranquilidade, pouca caminhada, comida boa"&gt;.
-O que não pode acontecer: &lt;limites, como "passar de doze mil reais" ou "mencionar o motivo da consulta"&gt;.
-O que você tem para usar: &lt;o material, como "a descrição do imóvel em anexo" ou "a agenda da semana"&gt;.
+O que nêo pode acontecer: &lt;limites, como "passar de doze mil reais" ou "mencionar o motivo da consulta"&gt;.
+O que você tem para usar: &lt;o material, como "a descriçêo do imóvel em anexo" ou "a agenda da semana"&gt;.
 Um bom resultado é: &lt;como você vai julgar, como "eu entregaria ao cliente sem mexer"&gt;.
 Escolha você o melhor caminho. Antes de entregar, me diga em duas linhas o que decidiu fazer e por quê.</pre></div>
 <ol class="psteps">
@@ -252,7 +252,7 @@ Escolha você o melhor caminho. Antes de entregar, me diga em duas linhas o que 
 <text fill="#948DA6" font-family="monospace" font-size="8" x="30" y="144">"how you</text><text fill="#948DA6" font-family="monospace" font-size="8" x="30" y="156">should do"</text>
 <text fill="#6C6580" font-family="monospace" font-size="7" x="30" y="174">do A → then B → then C</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; as seis partes do destino que continuam sendo suas. Nenhuma é técnica: todas são decisões de quem conhece o negócio. O agente (círculo tracejado) recebe as seis e devolve o caminho." data-fig="3"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; as seis partes do destino que continuam sendo suas. Nenhuma é técnica: todas sêo decisões de quem conhece o negócio. O agente (círculo tracejado) recebe as seis e devolve o caminho." data-fig="3"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <g fill="#ECE6D9" font-family="monospace" font-size="7.5">
 <rect fill="none" height="18" rx="3" stroke="#7CE0C6" stroke-width="1.2" width="84" x="14" y="20"></rect><text x="20" y="32">objective</text>
 <rect fill="none" height="18" rx="3" stroke="#7CE0C6" stroke-width="1.2" width="84" x="14" y="46"></rect><text x="20" y="58">what matters</text>
@@ -303,10 +303,10 @@ Escolha você o melhor caminho. Antes de entregar, me diga em duas linhas o que 
 <footer>Lesson 1 · FEP → AGI · ARCKHÉ AI PRO</footer>
 <script id="cards-1" type="application/json">
 [
-  {"front":"Um colega mostra um prompt de vinte linhas e diz 'quanto mais detalhado, melhor'. Em que caso ele tem razão, e em que caso o detalhe atrapalha?","back":"Tem razão quando as linhas descrevem destino, restrições e critério de bom. Atrapalha quando as linhas são passos de execução: elas prendem a IA ao caminho dele, que pode não ser o melhor, e não cobrem o que sair da lista."},
-  {"front":"Você recebeu da IA um resultado correto, mas exatamente igual ao que você mesmo teria feito, sem nenhuma surpresa útil. Qual é o diagnóstico mais provável?","back":"O pedido era caminho, não destino. A IA executou a sua receita. Para ela trazer algo que você não pensou, é preciso entregar objetivo e critério e deixar que ela escolha os passos."},
-  {"front":"Qual é a diferença entre 'o que não pode acontecer' e 'o que é um bom resultado' num briefing?","back":"O primeiro é limite: o que desqualifica a entrega mesmo que o resto esteja ótimo (estourar orçamento, citar o motivo da consulta). O segundo é o critério de julgamento: como você vai decidir que ficou pronto (entregaria ao cliente sem mexer)."},
-  {"front":"Você vai pedir à IA um plano para uma situação que nunca enfrentou e não sabe os passos. Isso é problema para escrever o pedido?","back":"Não. É justamente o caso em que o briefing por destino funciona melhor: você descreve o que quer, o que importa e os limites, e a IA propõe o caminho. Não saber os passos era problema só na era do micro-prompting."}
+  {"front":"Um colega mostra um prompt de vinte linhas e diz 'quanto mais detalhado, melhor'. Em que caso ele tem razêo, e em que caso o detalhe atrapalha?","back":"Tem razêo quando as linhas descrevem destino, restrições e critério de bom. Atrapalha quando as linhas sêo passos de execuçêo: elas prendem a IA ao caminho dele, que pode nêo ser o melhor, e nêo cobrem o que sair da lista."},
+  {"front":"Você recebeu da IA um resultado correto, mas exatamente igual ao que você mesmo teria feito, sem nenhuma surpresa útil. Qual é o diagnóstico mais provável?","back":"O pedido era caminho, nêo destino. A IA executou a sua receita. Para ela trazer algo que você nêo pensou, é preciso entregar objetivo e critério e deixar que ela escolha os passos."},
+  {"front":"Qual é a diferença entre 'o que nêo pode acontecer' e 'o que é um bom resultado' num briefing?","back":"O primeiro é limite: o que desqualifica a entrega mesmo que o resto esteja ótimo (estourar orçamento, citar o motivo da consulta). O segundo é o critério de julgamento: como você vai decidir que ficou pronto (entregaria ao cliente sem mexer)."},
+  {"front":"Você vai pedir à IA um plano para uma situaçêo que nunca enfrentou e nêo sabe os passos. Isso é problema para escrever o pedido?","back":"Nêo. É justamente o caso em que o briefing por destino funciona melhor: você descreve o que quer, o que importa e os limites, e a IA propõe o caminho. Nêo saber os passos era problema só na era do micro-prompting."}
 ]
 </script>
 <!-- COMPLETUDE aula-1 | tipo=FUNDAMENTO | steps=4
@@ -320,8 +320,8 @@ Escolha você o melhor caminho. Antes de entregar, me diga em duas linhas o que 
   [OK] pgoal-tempo        .pgoal com "cerca de 12 minutos" (1)
   [OK] recap-autor        .recap-autor no fecho (1)
   [OK] next-action        .next-action no fecho (1)
-  [OK] cards              <script id="cards-1"> presente (1, 4 cartões: decisão, diagnóstico, contraste, aplicação)
-  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operação)
+  [OK] cards              <script id="cards-1"> presente (1, 4 cartões: decisêo, diagnóstico, contraste, aplicaçêo)
+  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operaçêo)
   [OK] teste-se-FUND      tipo=FUNDAMENTO: presente (1 quiz data-fb, step 3)
   pool: teste-se · cartões · qbefore-after (step 2) · qanchor (step 4) = 4 obrigatórios, 0 opcional. densidade: quadros nos steps 2 e 4.
 -->
@@ -365,7 +365,7 @@ Escolha você o melhor caminho. Antes de entregar, me diga em duas linhas o que 
 <section class="step" data-fig="2" data-kind="fundamento">
 <h2><span class="n">02</span> Half the rules were about you; half were crutches for AI</h2>
 <p>Look again at the four pieces and the tips that came with them. "Be specific," "say what can’t be done," and "show an example of what good looks like" are about <b>your destination</b>. They still apply in any era because they describe what you want. But “think step by step,” “first list, then compare, then write,” and “respond only in JSON” were <b>crutches</b>: existed for an AI that needed guardrails to keep from getting lost.</p>
-<p>One <span class="gterm" data-def="Instrução que você escrevia no prompt não porque descrevia o que queria, mas para compensar uma limitação da IA da época. Quando a limitação some, a muleta vira peso." tabindex="0">crutch</span> isn't a mistake. It's a solution to a problem that existed. The mistake is continuing to rely on the crutch after your leg has healed. Many of the prompts saved since 2024 contain more crutch than destination, which is why today they deliver less than a three-line request.</p>
+<p>One <span class="gterm" data-def="Instruçêo que você escrevia no prompt nêo porque descrevia o que queria, mas para compensar uma limitaçêo da IA da época. Quando a limitaçêo some, a muleta vira peso." tabindex="0">crutch</span> isn't a mistake. It's a solution to a problem that existed. The mistake is continuing to rely on the crutch after your leg has healed. Many of the prompts saved since 2024 contain more crutch than destination, which is why today they deliver less than a three-line request.</p>
 <!-- ex-prof --><p>Sérgio, from the language school, had a prompt for answering parents’ emails: four outcome lines (“warm tone, never promise a spot, always offer a visit”) and twelve crutch lines (“first identify the subject, then classify its urgency, then choose template 1, 2, or 3, then…”). When he cut the twelve, the responses became more natural and, for the first time, the AI suggested scheduling the visit for a specific time.</p>
 <div class="qerr">
 <p class="qk">Common mistake</p>
@@ -381,9 +381,9 @@ Escolha você o melhor caminho. Antes de entregar, me diga em duas linhas o que 
 <!-- ex-prof --><p>Renata, from the clinic, discovered that each receptionist had their own version of the appointment confirmation prompt. One of them was still using a version that mentioned the old insurance plan, discontinued five months earlier. No one had made a mistake: the prompt just had no owner. That’s when she realized the problem wasn’t writing better; it was storing it somewhere else.</p>
 <div class="quiz" data-answer="c">
 <p class="qk">Test yourself</p><p class="q">A prompt from Paulo at the agency includes the line "respond in a table with the columns day, city, hotel, and cost". Is that a destination or a crutch?</p>
-<button class="opt" data-fb="Formato rígido às vezes é muleta, mas aqui a tabela é o que Paulo entrega ao cliente. O critério não é 'parece técnico', é 'descreve o que eu quero ou compensa uma fraqueza da IA'." data-k="a">crutch, because format is a technical matter</button>
-<button class="opt" data-fb="Não é a ordem que define. 'Primeiro liste, depois compare' é muleta porque dita o caminho. A tabela não dita caminho nenhum." data-k="b">crutch, because it dictates the order of the work</button>
-<button class="opt" data-fb="Certo. A tabela com essas colunas é o que Paulo precisa entregar ao cliente. Descreve o resultado desejado, não o caminho da IA. Continua valendo em qualquer era." data-k="c">destination, because it describes how Paulo needs to receive the result</button>
+<button class="opt" data-fb="Formato rígido às vezes é muleta, mas aqui a tabela é o que Paulo entrega ao cliente. O critério nêo é 'parece técnico', é 'descreve o que eu quero ou compensa uma fraqueza da IA'." data-k="a">crutch, because format is a technical matter</button>
+<button class="opt" data-fb="Nêo é a ordem que define. 'Primeiro liste, depois compare' é muleta porque dita o caminho. A tabela nêo dita caminho nenhum." data-k="b">crutch, because it dictates the order of the work</button>
+<button class="opt" data-fb="Certo. A tabela com essas colunas é o que Paulo precisa entregar ao cliente. Descreve o resultado desejado, nêo o caminho da IA. Continua valendo em qualquer era." data-k="c">destination, because it describes how Paulo needs to receive the result</button>
 <p class="qfb"></p>
 </div>
 <div class="mobfig" data-mobfig="3"></div>
@@ -405,15 +405,15 @@ Escolha você o melhor caminho. Antes de entregar, me diga em duas linhas o que 
 <p class="psafe">Just read and mark a sheet of paper or your notes. Nothing is sent or changed. If you disagree with the answer key on any line, great: write down why. That’s a sign the test is working.</p>
 <div class="pcodewrap"><button class="pcopy" type="button">copy</button><pre class="pcode">PROMPT A (Cláudia, anúncio de imóvel)
 1. Você é uma redatora imobiliária experiente.
-2. Aqui está a descrição, a planta e as fotos do apartamento.
+2. Aqui está a descriçêo, a planta e as fotos do apartamento.
 3. Primeiro liste os cinco pontos fortes. Depois escolha os três melhores.
 4. Escreva o anúncio em três parágrafos curtos.
 5. Nunca use "oportunidade única" nem "imperdível".
 6. Pense passo a passo antes de escrever.
 
-PROMPT B (Renata, confirmação de consulta)
+PROMPT B (Renata, confirmaçêo de consulta)
 1. Identifique primeiro o tipo de consulta; depois classifique a urgência; depois escolha o modelo de mensagem.
-2. A mensagem vai para o paciente por aplicativo, então no máximo quatro linhas.
+2. A mensagem vai para o paciente por aplicativo, entêo no máximo quatro linhas.
 3. Nunca mencione o motivo da consulta nem o nome do médico.
 4. Ofereça remarcar antes de qualquer outra coisa.
 5. Responda apenas com a mensagem, sem explicações.</pre></div>
@@ -439,7 +439,7 @@ PROMPT B (Renata, confirmação de consulta)
 <rect height="60" rx="5" stroke="#948DA6" stroke-width="1.5" width="84" x="116" y="102"></rect><text fill="#ECE6D9" font-family="monospace" font-size="8.5" x="126" y="124">format</text><text fill="#948DA6" font-family="monospace" font-size="7" x="126" y="140">how it arrives</text>
 <text fill="#7CE0C6" font-family="monospace" font-size="7" x="20" y="184">green: what you want</text><text fill="#948DA6" font-family="monospace" font-size="7" x="20" y="194">gray: how the AI behaves</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; destino e muleta no mesmo prompt. As linhas verdes descrevem o que você quer e continuam valendo. As âmbar compensavam uma limitação da IA da época; quando a limitação some (seta), viram peso." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; destino e muleta no mesmo prompt. As linhas verdes descrevem o que você quer e continuam valendo. As âmbar compensavam uma limitaçêo da IA da época; quando a limitaçêo some (seta), viram peso." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <rect height="150" rx="5" stroke="#948DA6" stroke-width="1.5" width="120" x="16" y="20"></rect>
 <g stroke-linecap="round" stroke-width="2.5"><path d="M28 36 h70" stroke="#7CE0C6"></path><path d="M28 50 h90" stroke="#F2B45C"></path><path d="M28 64 h84" stroke="#F2B45C"></path><path d="M28 78 h60" stroke="#7CE0C6"></path><path d="M28 92 h96" stroke="#F2B45C"></path><path d="M28 106 h88" stroke="#F2B45C"></path><path d="M28 120 h54" stroke="#7CE0C6"></path><path d="M28 134 h92" stroke="#F2B45C"></path><path d="M28 148 h66" stroke="#7CE0C6"></path></g>
 <text fill="#7CE0C6" font-family="monospace" font-size="7.5" x="146" y="46">destination</text><text fill="#7CE0C6" font-family="monospace" font-size="7" x="146" y="58">stays</text>
@@ -499,10 +499,10 @@ PROMPT B (Renata, confirmação de consulta)
 <footer>Lesson 2 · FEP → AGI · ARCKHÉ AI PRO</footer>
 <script id="cards-2" type="application/json">
 [
-  {"front":"Um prompt antigo seu tem a linha 'pense passo a passo antes de responder'. Você a mantém ou corta, e com base em que critério?","back":"Corta. A linha descreve o caminho da IA, não o que você quer, e existia para compensar modelos que respondiam sem raciocinar. Os atuais já fazem isso. O critério é a pergunta da linha: isto é o meu destino ou o percurso da IA?"},
-  {"front":"Duas recepcionistas usam prompts diferentes para a mesma mensagem e uma delas cita um convênio descontinuado. O problema é de escrita do prompt?","back":"Não. É de lugar: a regra do convênio morava dentro de um prompt copiado, sem dono. Escrever melhor não resolve; guardar o que a IA precisa saber fora do prompt, num lugar só, resolve. É o que a era do contexto faz."},
+  {"front":"Um prompt antigo seu tem a linha 'pense passo a passo antes de responder'. Você a mantém ou corta, e com base em que critério?","back":"Corta. A linha descreve o caminho da IA, nêo o que você quer, e existia para compensar modelos que respondiam sem raciocinar. Os atuais já fazem isso. O critério é a pergunta da linha: isto é o meu destino ou o percurso da IA?"},
+  {"front":"Duas recepcionistas usam prompts diferentes para a mesma mensagem e uma delas cita um convênio descontinuado. O problema é de escrita do prompt?","back":"Nêo. É de lugar: a regra do convênio morava dentro de um prompt copiado, sem dono. Escrever melhor nêo resolve; guardar o que a IA precisa saber fora do prompt, num lugar só, resolve. É o que a era do contexto faz."},
   {"front":"Qual a diferença entre 'formato de entrega' (fica) e 'ordem dos passos' (sai) num prompt, se os dois parecem instruções técnicas?","back":"Formato de entrega descreve o que você precisa receber (tabela com quatro colunas, quatro linhas por aplicativo). Ordem dos passos descreve como a IA deve trabalhar por dentro. O primeiro é destino; o segundo, caminho."},
-  {"front":"Depois de cortar as muletas, o prompt de um colega ficou com três linhas e ele acha que 'ficou pobre demais'. O que você verifica antes de concordar?","back":"Se as três linhas cobrem tom, limites e critério de bom. Se cobrem, o prompt não está pobre, está limpo. Se falta alguma dessas, o problema não é tamanho, é destino incompleto."}
+  {"front":"Depois de cortar as muletas, o prompt de um colega ficou com três linhas e ele acha que 'ficou pobre demais'. O que você verifica antes de concordar?","back":"Se as três linhas cobrem tom, limites e critério de bom. Se cobrem, o prompt nêo está pobre, está limpo. Se falta alguma dessas, o problema nêo é tamanho, é destino incompleto."}
 ]
 </script>
 <!-- COMPLETUDE aula-2 | tipo=FUNDAMENTO | steps=4
@@ -516,8 +516,8 @@ PROMPT B (Renata, confirmação de consulta)
   [OK] pgoal-tempo        .pgoal com "cerca de 10 minutos" (1)
   [OK] recap-autor        .recap-autor no fecho (1)
   [OK] next-action        .next-action no fecho (1)
-  [OK] cards              <script id="cards-2"> presente (1, 4 cartões: decisão, diagnóstico, contraste, decisão)
-  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operação)
+  [OK] cards              <script id="cards-2"> presente (1, 4 cartões: decisêo, diagnóstico, contraste, decisêo)
+  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operaçêo)
   [OK] teste-se-FUND      tipo=FUNDAMENTO: presente (1 quiz data-fb, step 3)
   pool: teste-se · cartões · qanchor (step 4) · qerr (step 2, opcional) = 4 obrigatórios (qanchor incluso), 1 opcional = 5. densidade: quadros nos steps 2 e 4.
 -->
@@ -532,7 +532,7 @@ PROMPT B (Renata, confirmação de consulta)
 <p class="why">Once the request got good, the error moved. AI started doing the wrong task well: a polished ad for the wrong customer, a perfect message citing a rule that had changed. The instructions weren’t missing; the information was. The second era discovered that what AI knows about your business matters more than how you ask. And that knowledge needs to live outside the prompt.</p>
 <p class="cue"><span class="arw">↓</span> role to study</p>
 </div>
-<!-- herofig · registro METÁFORA-DO-MUNDO-REAL: o novo funcionário no primeiro dia recebe a pasta do cliente (com abas), não um roteiro de fala -->
+<!-- herofig · registro METÁFORA-DO-MUNDO-REAL: o novo funcionário no primeiro dia recebe a pasta do cliente (com abas), nêo um roteiro de fala -->
 <div class="herofig"><svg aria-hidden="true" fill="none" viewbox="0 0 300 240">
 <path d="M40 60 h150 v140 h-150 z" fill="#F2B45C" opacity=".95"></path>
 <path d="M40 60 h50 l10 -14 h50 v14" fill="#F2B45C"></path>
@@ -553,7 +553,7 @@ PROMPT B (Renata, confirmação de consulta)
 <div class="col">
 <section class="step" data-fig="1" data-kind="fundamento">
 <h2><span class="n">01</span> Context is raw material, not decoration</h2>
-<p>In the first era, "provide context" was one of the prompt’s four parts, and it fit in two sentences. The second era realized those two sentences were the most important part—and the least well served. <span class="gterm" data-def="Tudo o que a IA precisa saber para trabalhar bem no seu caso: quem é o negócio, quem é o cliente, o que já aconteceu, quais são as regras e o que já foi decidido. Não é instrução; é informação." tabindex="0">Context</span> is everything the AI needs to know: who the company is, what it sells, who it sells to, its history, brand, competitors, policies, goals, and past decisions.</p>
+<p>In the first era, "provide context" was one of the prompt’s four parts, and it fit in two sentences. The second era realized those two sentences were the most important part—and the least well served. <span class="gterm" data-def="Tudo o que a IA precisa saber para trabalhar bem no seu caso: quem é o negócio, quem é o cliente, o que já aconteceu, quais sêo as regras e o que já foi decidido. Nêo é instruçêo; é informaçêo." tabindex="0">Context</span> is everything the AI needs to know: who the company is, what it sells, who it sells to, its history, brand, competitors, policies, goals, and past decisions.</p>
 <p>The difference from an instruction is simple: an instruction says what to do; context says what world to do it in. A perfect request in the wrong world produces a perfect result for another company. That's why the English name for this era, context engineering, took the place of prompt engineering: the lever changed hands.</p>
 <!-- ex-prof --><p>Sérgio, from the language school, would ask “write a welcome email” and get copy that could work for any school in the country. Once he started attaching a page describing what the school is (small classes, native-speaking teachers, focus on adults who travel for work, no classes for children), that same one-line request started producing emails only his school could send.</p>
 <div class="mobfig" data-mobfig="1"></div>
@@ -566,9 +566,9 @@ PROMPT B (Renata, confirmação de consulta)
 <!-- ex-prof --><p>Renata, from the clinic, pasted the entire forty-page service manual into a conversation and asked for a confirmation message. AI ignored the rule against mentioning the doctor’s name, which was on page 23. When she started over with a single page containing the seven rules that mattered, with that rule first, the message came out right. Less paper on the table, better results.</p>
 <div class="quiz" data-answer="a">
 <p class="qk">Test yourself</p><p class="q">Cláudia pasted descriptions of thirty properties into a conversation and, at the end, asked it to highlight the ones that accept financing. The AI forgot two. What’s the most likely explanation?</p>
-<button class="opt" data-fb="Certo. Trinta descrições enchem a mesa, e a atenção cai justamente no meio. Melhor entregar só os imóveis relevantes, ou dar a instrução antes do material e repetir no fim." data-k="a">the table was full, and both were in the middle of the material</button>
-<button class="opt" data-fb="A IA não 'escolhe' esquecer por preguiça. O efeito é mecânico: material demais no meio da conversa recebe menos atenção." data-k="b">the AI got lazy toward the end of a long conversation</button>
-<button class="opt" data-fb="O pedido estava claro. O problema não era instrução, era quantidade e posição do material. Repetir o pedido em maiúsculas não muda o tamanho da mesa." data-k="c">the request should be in uppercase to grab attention</button>
+<button class="opt" data-fb="Certo. Trinta descrições enchem a mesa, e a atençêo cai justamente no meio. Melhor entregar só os imóveis relevantes, ou dar a instruçêo antes do material e repetir no fim." data-k="a">the table was full, and both were in the middle of the material</button>
+<button class="opt" data-fb="A IA nêo 'escolhe' esquecer por preguiça. O efeito é mecânico: material demais no meio da conversa recebe menos atençêo." data-k="b">the AI got lazy toward the end of a long conversation</button>
+<button class="opt" data-fb="O pedido estava claro. O problema nêo era instruçêo, era quantidade e posiçêo do material. Repetir o pedido em maiúsculas nêo muda o tamanho da mesa." data-k="c">the request should be in uppercase to grab attention</button>
 <p class="qfb"></p>
 </div>
 <div class="mobfig" data-mobfig="2"></div>
@@ -609,7 +609,7 @@ Quem somos: &lt;o negócio em uma frase, com o que o diferencia&gt;
 O que tratamos aqui: &lt;o produto, serviço ou processo desta responsabilidade&gt;
 Com quem: &lt;quem é a pessoa do outro lado, em uma frase&gt;
 O que nunca pode acontecer: &lt;as duas ou três regras que desqualificam qualquer entrega&gt;
-O que já decidimos: &lt;uma decisão anterior que a IA precisa respeitar, com a data&gt;</pre></div>
+O que já decidimos: &lt;uma decisêo anterior que a IA precisa respeitar, com a data&gt;</pre></div>
 <ol class="psteps">
 <li><label><input data-ptask="1" type="checkbox"/> Choose a recurring responsibility where AI has already made a mistake because it didn’t know something about your business. Course examples: ads (Cláudia), welcome emails (Sérgio), confirmations (Renata), estimates (Paulo).</label></li>
 <li><label><input data-ptask="2" type="checkbox"/> Fill in the five lines in the block above. Length rule: each line must fit in one sentence. If you needed a paragraph, you’re pasting in an archive instead of useful context.</label></li>
@@ -621,7 +621,7 @@ O que já decidimos: &lt;uma decisão anterior que a IA precisa respeitar, com a
 </div>
 <aside class="rail"><div class="railsticky">
 <div class="figstage">
-<div class="fig on" data-cap="&lt;b&gt;Fig.&lt;/b&gt; instrução e contexto entram por portas diferentes. A instrução (em cima) diz o que fazer. O contexto (embaixo) diz em que mundo fazer. Um pedido perfeito com o mundo errado produz um resultado perfeito para outra empresa." data-fig="1"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig on" data-cap="&lt;b&gt;Fig.&lt;/b&gt; instruçêo e contexto entram por portas diferentes. A instruçêo (em cima) diz o que fazer. O contexto (embaixo) diz em que mundo fazer. Um pedido perfeito com o mundo errado produz um resultado perfeito para outra empresa." data-fig="1"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <rect fill="#221f2e" height="56" rx="8" stroke="#ECE6D9" stroke-width="1.5" width="80" x="70" y="72"></rect><text fill="#ECE6D9" font-family="monospace" font-size="8.5" x="96" y="104">AI</text>
 <rect height="30" rx="5" stroke="#948DA6" stroke-width="1.5" width="192" x="14" y="18"></rect><text fill="#ECE6D9" font-family="monospace" font-size="7.5" x="22" y="37">instruction: what to do</text>
 <path d="M110 48 v24" stroke="#948DA6" stroke-width="1.5"></path><path d="M107 66 l3 5 3 -5" fill="none" stroke="#948DA6" stroke-width="1.5"></path>
@@ -629,7 +629,7 @@ O que já decidimos: &lt;uma decisão anterior que a IA precisa respeitar, com a
 <path d="M110 150 v-22" stroke="#7CE0C6" stroke-width="1.5"></path><path d="M107 134 l3 -5 3 5" fill="none" stroke="#7CE0C6" stroke-width="1.5"></path>
 <text fill="#F2B45C" font-family="monospace" font-size="7" x="158" y="100">→ result</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; a mesa de trabalho da IA. O que está sobre ela existe; o que caiu, não. Numa mesa cheia, a atenção (curva) é alta no começo e no fim e cai no meio. Regra importante vai nas pontas, nunca no parágrafo doze." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; a mesa de trabalho da IA. O que está sobre ela existe; o que caiu, nêo. Numa mesa cheia, a atençêo (curva) é alta no começo e no fim e cai no meio. Regra importante vai nas pontas, nunca no parágrafo doze." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <rect fill="#948DA6" height="10" opacity=".8" rx="2" width="188" x="16" y="110"></rect>
 <path d="M30 120 v50 M190 120 v50" stroke="#948DA6" stroke-width="3"></path>
 <g fill="#ECE6D9" opacity=".9"><rect height="18" rx="2" width="26" x="24" y="92"></rect><rect height="18" rx="2" width="26" x="54" y="92"></rect><rect height="18" rx="2" width="26" x="84" y="92"></rect><rect height="18" rx="2" width="26" x="114" y="92"></rect><rect height="18" rx="2" width="26" x="144" y="92"></rect><rect height="18" rx="2" width="26" x="174" y="92"></rect></g>
@@ -640,7 +640,7 @@ O que já decidimos: &lt;uma decisão anterior que a IA precisa respeitar, com a
 <text fill="#F2B45C" font-family="monospace" font-size="7" x="86" y="72">means: less</text>
 <text fill="#6C6580" font-family="monospace" font-size="7" x="16" y="192">context window = size of the table</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; a ficha de cinco linhas. Cada linha responde uma pergunta e cabe numa frase. O que fica fora (arquivo morto, manual inteiro) não é perda: é o que estava escondendo as cinco que importam." data-fig="3"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; a ficha de cinco linhas. Cada linha responde uma pergunta e cabe numa frase. O que fica fora (arquivo morto, manual inteiro) nêo é perda: é o que estava escondendo as cinco que importam." data-fig="3"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <rect height="150" rx="6" stroke="#7CE0C6" stroke-width="1.5" width="160" x="30" y="20"></rect>
 <g fill="#ECE6D9" font-family="monospace" font-size="7.5"><text x="42" y="46">who we are</text><text x="42" y="72">what we treat</text><text x="42" y="98">with whom</text><text x="42" y="124">what never</text><text x="42" y="150">what we've already decided</text></g>
 <g opacity=".5" stroke="#7CE0C6" stroke-width="1"><path d="M42 52 h136 M42 78 h136 M42 104 h136 M42 130 h136 M42 156 h136"></path></g>
@@ -689,9 +689,9 @@ O que já decidimos: &lt;uma decisão anterior que a IA precisa respeitar, com a
 <footer>Lesson 3 · FEP → AGI · ARCKHÉ AI PRO</footer>
 <script id="cards-3" type="application/json">
 [
-  {"front":"A IA entregou uma mensagem impecável, mas citando um convênio que a clínica não aceita mais. Onde está a falha: no pedido, no contexto ou na IA?","back":"No contexto, e mais precisamente no lugar dele. A regra nova não estava onde a IA pudesse ver, ou estava enterrada num manual de quarenta páginas. A correção não é reescrever o pedido; é atualizar a ficha no projeto que tem dono."},
-  {"front":"Você precisa que a IA respeite uma regra importante numa conversa que já tem vinte páginas de material colado. Onde você coloca a regra e por quê?","back":"No início ou no fim, nunca no meio, porque numa mesa cheia a atenção cai no meio. Melhor ainda: reduzir o material ao que a responsabilidade precisa e pôr a regra na ficha de contexto do projeto."},
-  {"front":"Qual a diferença entre a linha 'o que nunca pode acontecer' e a linha 'o que já decidimos' na ficha de contexto?","back":"A primeira é regra permanente que desqualifica qualquer entrega (citar o nome do médico). A segunda é uma decisão datada que a IA precisa respeitar mas que pode mudar (paramos de vender cruzeiro em 2025). Uma protege; a outra atualiza."},
+  {"front":"A IA entregou uma mensagem impecável, mas citando um convênio que a clínica nêo aceita mais. Onde está a falha: no pedido, no contexto ou na IA?","back":"No contexto, e mais precisamente no lugar dele. A regra nova nêo estava onde a IA pudesse ver, ou estava enterrada num manual de quarenta páginas. A correçêo nêo é reescrever o pedido; é atualizar a ficha no projeto que tem dono."},
+  {"front":"Você precisa que a IA respeite uma regra importante numa conversa que já tem vinte páginas de material colado. Onde você coloca a regra e por quê?","back":"No início ou no fim, nunca no meio, porque numa mesa cheia a atençêo cai no meio. Melhor ainda: reduzir o material ao que a responsabilidade precisa e pôr a regra na ficha de contexto do projeto."},
+  {"front":"Qual a diferença entre a linha 'o que nunca pode acontecer' e a linha 'o que já decidimos' na ficha de contexto?","back":"A primeira é regra permanente que desqualifica qualquer entrega (citar o nome do médico). A segunda é uma decisêo datada que a IA precisa respeitar mas que pode mudar (paramos de vender cruzeiro em 2025). Uma protege; a outra atualiza."},
   {"front":"Um colega quer colar o manual inteiro da empresa no projeto 'para a IA saber tudo'. O que você diz a ele?","back":"Que o manual inteiro enche a mesa e esconde as cinco linhas que importam para cada responsabilidade. Melhor uma ficha por responsabilidade, com dono, e anexar do manual só a parte que aquela ficha cita."}
 ]
 </script>
@@ -706,10 +706,10 @@ O que já decidimos: &lt;uma decisão anterior que a IA precisa respeitar, com a
   [OK] pgoal-tempo        .pgoal com "cerca de 12 minutos" (1)
   [OK] recap-autor        .recap-autor no fecho (1)
   [OK] next-action        .next-action no fecho (1)
-  [OK] cards              <script id="cards-3"> presente (1, 4 cartões: diagnóstico, decisão, contraste, aplicação)
-  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operação)
+  [OK] cards              <script id="cards-3"> presente (1, 4 cartões: diagnóstico, decisêo, contraste, aplicaçêo)
+  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operaçêo)
   [OK] teste-se-FUND      tipo=FUNDAMENTO: presente (1 quiz data-fb, step 2)
-  pool: teste-se · cartões · qanchor (step 4) · qapply (step 3, opcional, 3 profissões) = 4 obrigatórios, 1 opcional = 5. densidade: quadros nos steps 2 (quiz), 3, 4 — quiz não é quadro funcional; quadros CSS nos steps 3 e 4.
+  pool: teste-se · cartões · qanchor (step 4) · qapply (step 3, opcional, 3 profissões) = 4 obrigatórios, 1 opcional = 5. densidade: quadros nos steps 2 (quiz), 3, 4 — quiz nêo é quadro funcional; quadros CSS nos steps 3 e 4.
 -->
 </section>
 <!-- ===== AULA 4 · FUNDAMENTO ===== -->
@@ -722,7 +722,7 @@ O que já decidimos: &lt;uma decisão anterior que a IA precisa respeitar, com a
 <p class="why">Once context had a home, one thing about the prompt was still bothering us: the procedure. Every time you ask for the proposal, report, or listing, you repeat the same eight steps, the same example, the same checklist. That isn’t a request; it’s a manual. The third era discovered that the manual can also have its own home, be written once, and used every time. That’s the skill, and it’s the piece missing from almost every course for nonexperts.</p>
 <p class="cue"><span class="arw">↓</span> role to study</p>
 </div>
-<!-- herofig · registro METÁFORA-DO-MUNDO-REAL: o caderno de procedimentos do balcão (anelado, com abas) que faz quem chega novo atender igual ao dono -->
+<!-- herofig · registro METÁFORA-DO-MUNDO-REAL: o caderno de procedimentos do balcêo (anelado, com abas) que faz quem chega novo atender igual ao dono -->
 <div class="herofig"><svg aria-hidden="true" fill="none" viewbox="0 0 300 240">
 <rect fill="#ECE6D9" height="170" opacity=".94" rx="6" width="150" x="60" y="40"></rect>
 <g fill="#948DA6"><circle cx="72" cy="60" r="4"></circle><circle cx="72" cy="90" r="4"></circle><circle cx="72" cy="120" r="4"></circle><circle cx="72" cy="150" r="4"></circle><circle cx="72" cy="180" r="4"></circle></g>
@@ -745,7 +745,7 @@ O que já decidimos: &lt;uma decisão anterior que a IA precisa respeitar, com a
 <div class="col">
 <section class="step" data-fig="1" data-kind="fundamento">
 <h2><span class="n">01</span> A prompt is the request for right now; a skill is how your organization handles this kind of work</h2>
-<p>Imagine a company. You walk up to an employee and say, "prepare the proposal for the client on Augusta Street." That is the <b>prompt</b>: the guidance for that specific situation. But the company has a manual with the proposal template, discount policy, how to calculate the margin, visual standards, approval steps, and final checklist. That manual is the <span class="gterm" data-def="Conhecimento ou procedimento reutilizável que ensina à IA como realizar bem uma classe inteira de trabalho, não um pedido só. Pode reunir instruções, modelos, referências e checklists." tabindex="0">skill</span>.</p>
+<p>Imagine a company. You walk up to an employee and say, "prepare the proposal for the client on Augusta Street." That is the <b>prompt</b>: the guidance for that specific situation. But the company has a manual with the proposal template, discount policy, how to calculate the margin, visual standards, approval steps, and final checklist. That manual is the <span class="gterm" data-def="Conhecimento ou procedimento reutilizável que ensina à IA como realizar bem uma classe inteira de trabalho, nêo um pedido só. Pode reunir instruções, modelos, referências e checklists." tabindex="0">skill</span>.</p>
 <p>The difference comes down to two questions. A prompt answers <b>"what do I want now?"</b>. A skill answers <b>"how does our organization usually handle this kind of work?"</b>. One changes with every request. The other stays the same for months and applies to every request in that category.</p>
 <!-- ex-prof --><p>Renata, from the clinic, noticed that every monthly report for the three doctors followed the same outline: missed appointments, rescheduling, average wait time, complaints, comparison with the previous month, and three recommendations. Each month’s request was “August report” and nothing else. Everything else was a repeated manual embedded in the prompt. She separated them: the “monthly report” skill was written once; the prompt became two words.</p>
 <div class="mobfig" data-mobfig="1"></div>
@@ -786,9 +786,9 @@ O que já decidimos: &lt;uma decisão anterior que a IA precisa respeitar, com a
 <!-- ex-prof --><p>Cláudia brought the "property listing" skill into the tool she uses: a page with when to use it (residential sales, never rentals), deliverable (three paragraphs plus a list of features), steps (highlight light and location, cite the exact area from the deed, never use empty adjectives), example (the listing for the apartment on Rua das Flores), and checklist (area matches, no "must-see," correct neighborhood). Now the request is "this apartment" with the floor plan attached, inside the project that already has the context profile. Context says who she is; skill says how she writes; prompt says which property.</p>
 <div class="quiz" data-answer="b">
 <p class="qk">Test yourself</p><p class="q">Sérgio wrote this on one page: “the school has classes of up to six students, native-speaking teachers, focuses on adults who travel for work, and doesn’t teach children.” Is that context or a skill?</p>
-<button class="opt" data-fb="Skill descreve como fazer uma classe de trabalho: passos, modelo, checklist. Essa página descreve quem a escola é, não como ela faz alguma coisa." data-k="a">skill, because it can be reused across multiple requests</button>
+<button class="opt" data-fb="Skill descreve como fazer uma classe de trabalho: passos, modelo, checklist. Essa página descreve quem a escola é, nêo como ela faz alguma coisa." data-k="a">skill, because it can be reused across multiple requests</button>
 <button class="opt" data-fb="Certo. A página diz em que mundo a IA trabalha (quem somos, para quem, o que nunca). É a ficha de contexto da aula 3. A skill seria a página que explica como a escola monta uma proposta ou responde um e-mail de pais." data-k="b">context, because it says who the school is, not how it does a job</button>
-<button class="opt" data-fb="Não é prompt: não pede nada. Prompt é o pedido de agora ('proposta para a transportadora'). Essa página é informação de fundo." data-k="c">prompt, because it was written for the AI to read</button>
+<button class="opt" data-fb="Nêo é prompt: nêo pede nada. Prompt é o pedido de agora ('proposta para a transportadora'). Essa página é informaçêo de fundo." data-k="c">prompt, because it was written for the AI to read</button>
 <p class="qfb"></p>
 </div>
 <div class="qanchor"><p>Context says what world the AI works in. Skill says how the agency handles this kind of work. Prompt says what you want right now. Three things, three homes.</p></div>
@@ -802,7 +802,7 @@ O que já decidimos: &lt;uma decisão anterior que a IA precisa respeitar, com a
 <p class="psafe">You write in your own document and paste it into an AI chat. No customer receives anything, and no system changes. If the result doesn’t match how your organization works, the flaw is in the page, not in you: adjust one step and test again. That’s how every skill begins.</p>
 <div class="pcodewrap"><button class="pcopy" type="button">copy</button><pre class="pcode">SKILL: &lt;nome curto, como "proposta para empresas" ou "relatório mensal"&gt;
 
-QUANDO USAR: &lt;a situação em uma frase&gt;. NÃO USAR quando: &lt;a exceção em uma frase&gt;.
+QUANDO USAR: &lt;a situaçêo em uma frase&gt;. NêO USAR quando: &lt;a exceçêo em uma frase&gt;.
 O QUE ENTREGA: &lt;o documento, tamanho, formato e para quem&gt;.
 COMO A CASA FAZ:
 1. &lt;primeiro passo, como a casa faz de verdade&gt;
@@ -839,7 +839,7 @@ CHECKLIST ANTES DE ENTREGAR:
 <text fill="#948DA6" font-family="monospace" font-size="6.5" x="24" y="158">written once, it works for all three</text>
 <text fill="#6C6580" font-family="monospace" font-size="7" x="14" y="190">one changes with each request; the other stays for months</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; prompt + skill entram juntos. O pedido curto (verde) e o manual (âmbar) chegam à IA ao mesmo tempo; o resultado herda o padrão da casa sem que o pedido precise repetir nada. A skill é mais que texto: pode carregar modelos, referências e ferramentas." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; prompt + skill entram juntos. O pedido curto (verde) e o manual (âmbar) chegam à IA ao mesmo tempo; o resultado herda o padrêo da casa sem que o pedido precise repetir nada. A skill é mais que texto: pode carregar modelos, referências e ferramentas." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <rect height="26" rx="4" stroke="#7CE0C6" stroke-width="1.5" width="80" x="14" y="30"></rect><text fill="#7CE0C6" font-family="monospace" font-size="7.5" x="20" y="47">prompt (1 sentence)</text>
 <rect height="80" rx="4" stroke="#F2B45C" stroke-width="1.5" width="80" x="14" y="70"></rect>
 <text fill="#F2B45C" font-family="monospace" font-size="7.5" x="20" y="86">skill</text>
@@ -852,7 +852,7 @@ CHECKLIST ANTES DE ENTREGAR:
 <text fill="#948DA6" font-family="monospace" font-size="6.5" x="124" y="150">result in</text><text fill="#948DA6" font-family="monospace" font-size="6.5" x="124" y="160">house standard</text>
 <text fill="#6C6580" font-family="monospace" font-size="7" x="14" y="188">they don't compete: they add up</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; a skill de uma página, em cinco partes. Os passos voltaram, mas mudaram de lugar: no pedido eram muleta (prendiam cada caso ao seu jeito); na skill são procedimento, pensado uma vez e consultado quando faz sentido." data-fig="3"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; a skill de uma página, em cinco partes. Os passos voltaram, mas mudaram de lugar: no pedido eram muleta (prendiam cada caso ao seu jeito); na skill sêo procedimento, pensado uma vez e consultado quando faz sentido." data-fig="3"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <rect height="172" rx="6" stroke="#F2B45C" stroke-width="1.5" width="140" x="40" y="14"></rect>
 <g fill="#ECE6D9" font-family="monospace" font-size="7.5"><text x="50" y="34">when to use</text><text x="50" y="62">what it delivers</text><text x="50" y="90">the steps</text><text x="50" y="132">the model</text><text x="50" y="160">final checklist</text></g>
 <g opacity=".5" stroke="#F2B45C" stroke-width="1"><path d="M50 40 h120 M50 68 h120 M50 118 h120 M50 138 h120 M50 166 h120"></path></g>
@@ -899,11 +899,11 @@ CHECKLIST ANTES DE ENTREGAR:
 <footer>Lesson 4 · FEP → AGI · ARCKHÉ AI PRO</footer>
 <script id="cards-4" type="application/json">
 [
-  {"front":"Um colega diz que já tem 'uma skill de proposta': um texto de trinta linhas que ele cola em toda conversa, com o nome do cliente no meio. É skill?","back":"Ainda não. O teste: tire o pedido específico (o cliente de hoje) e veja se o que sobra serve para o próximo caso sem mexer. Se o texto mistura o pedido com o procedimento, é prompt da primeira era. Skill é só a parte que fica igual."},
-  {"front":"A IA aplicou a skill de 'orçamento de lua de mel' para um pedido de viagem corporativa e saiu tudo errado. Qual parte da skill provavelmente faltou ou estava fraca?","back":"O 'quando usar' e, principalmente, o 'quando não usar'. Sem essa fronteira escrita, a IA aplica o procedimento a qualquer pedido que pareça parecido. Uma frase de exceção resolve."},
+  {"front":"Um colega diz que já tem 'uma skill de proposta': um texto de trinta linhas que ele cola em toda conversa, com o nome do cliente no meio. É skill?","back":"Ainda nêo. O teste: tire o pedido específico (o cliente de hoje) e veja se o que sobra serve para o próximo caso sem mexer. Se o texto mistura o pedido com o procedimento, é prompt da primeira era. Skill é só a parte que fica igual."},
+  {"front":"A IA aplicou a skill de 'orçamento de lua de mel' para um pedido de viagem corporativa e saiu tudo errado. Qual parte da skill provavelmente faltou ou estava fraca?","back":"O 'quando usar' e, principalmente, o 'quando nêo usar'. Sem essa fronteira escrita, a IA aplica o procedimento a qualquer pedido que pareça parecido. Uma frase de exceçêo resolve."},
   {"front":"Qual a diferença entre um passo escrito no pedido e o mesmo passo escrito na skill?","back":"No pedido, o passo prende aquele caso ao seu jeito de fazer e vira muleta quando a IA já saberia escolher melhor. Na skill, o passo descreve como a casa faz a classe inteira, foi pensado uma vez e fica disponível para a IA consultar quando fizer sentido."},
-  {"front":"Você tem a ficha de contexto (aula 3) e a skill (aula 4) da mesma responsabilidade. Um pedido saiu no tom errado da empresa. Em qual dos dois documentos você mexe primeiro, e por quê?","back":"Na ficha de contexto, porque tom da casa é 'quem somos', não 'como fazemos este trabalho'. Se o erro fosse de estrutura, ordem ou item faltando na entrega, seria na skill. Diagnosticar o lugar antes de corrigir evita consertar o documento errado."},
-  {"front":"Sua ferramenta de IA não tem um botão de 'skills'. Isso impede você de usar uma?","back":"Não. A skill é a página escrita uma vez, com dono. Colada no início da conversa, seguida do pedido curto, funciona do mesmo jeito. O botão facilita; skill se define pelo conteúdo e pelo reúso, não pelo lugar."}
+  {"front":"Você tem a ficha de contexto (aula 3) e a skill (aula 4) da mesma responsabilidade. Um pedido saiu no tom errado da empresa. Em qual dos dois documentos você mexe primeiro, e por quê?","back":"Na ficha de contexto, porque tom da casa é 'quem somos', nêo 'como fazemos este trabalho'. Se o erro fosse de estrutura, ordem ou item faltando na entrega, seria na skill. Diagnosticar o lugar antes de corrigir evita consertar o documento errado."},
+  {"front":"Sua ferramenta de IA nêo tem um botêo de 'skills'. Isso impede você de usar uma?","back":"Nêo. A skill é a página escrita uma vez, com dono. Colada no início da conversa, seguida do pedido curto, funciona do mesmo jeito. O botêo facilita; skill se define pelo conteúdo e pelo reúso, nêo pelo lugar."}
 ]
 </script>
 <!-- COMPLETUDE aula-4 | tipo=FUNDAMENTO | steps=4
@@ -917,8 +917,8 @@ CHECKLIST ANTES DE ENTREGAR:
   [OK] pgoal-tempo        .pgoal com "cerca de 15 minutos" (1)
   [OK] recap-autor        .recap-autor no fecho (1)
   [OK] next-action        .next-action no fecho (1)
-  [OK] cards              <script id="cards-4"> presente (1, 5 cartões: diagnóstico, diagnóstico, contraste, decisão, aplicação)
-  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operação)
+  [OK] cards              <script id="cards-4"> presente (1, 5 cartões: diagnóstico, diagnóstico, contraste, decisêo, aplicaçêo)
+  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operaçêo)
   [OK] teste-se-FUND      tipo=FUNDAMENTO: presente (1 quiz data-fb, step 4)
   pool: teste-se · cartões · qanchor (step 4) · qsteps (step 3, opcional) = 4 obrigatórios + 1 opcional = 5. densidade: quadros CSS nos steps 3 e 4 (qsteps, qanchor) em 4 steps = 2/4, dentro do teto. O erro comum do step 2 virou prosa para respeitar a densidade.
 -->
@@ -933,7 +933,7 @@ CHECKLIST ANTES DE ENTREGAR:
 <p class="why">You already have a clean prompt, context with a home, and a written skill. And still, sometimes the result is correct but doesn’t solve anything. That happens when the request starts at the wrong level: you asked for a task without deciding why it exists or what needs to change. Most people start at level three and get frustrated. This lesson takes you up two steps and shows where the request really begins.</p>
 <p class="cue"><span class="arw">↓</span> role to study</p>
 </div>
-<!-- herofig · registro METÁFORA-DO-MUNDO-REAL: o dono da casa com a planta e o mestre de obras com a trena — o dono não diz onde vai cada tijolo, diz como quer viver -->
+<!-- herofig · registro METÁFORA-DO-MUNDO-REAL: o dono da casa com a planta e o mestre de obras com a trena — o dono nêo diz onde vai cada tijolo, diz como quer viver -->
 <div class="herofig"><svg aria-hidden="true" fill="none" viewbox="0 0 300 240">
 <rect fill="#ECE6D9" height="110" opacity=".94" rx="4" width="150" x="30" y="50"></rect>
 <path d="M50 70 h60 v40 h-60 z M120 70 h40 v70 h-40 z M50 120 h60 v20 h-60 z" opacity=".6" stroke="#0E0D14" stroke-width="2"></path>
@@ -954,7 +954,7 @@ CHECKLIST ANTES DE ENTREGAR:
 <div class="col">
 <section class="step" data-fig="1" data-kind="fundamento">
 <h2><span class="n">01</span> Every request comes from an intent, even when you haven’t written it down</h2>
-<p>Behind every request to AI, there’s a reason. "Write the welcome email" exists because someone wants the new student not to give up in the first week. That reason is the <span class="gterm" data-def="O porquê que está por trás do pedido: a mudança que você quer ver no negócio. Não é a tarefa nem o resultado dela; é o motivo de ela existir." tabindex="0">intent</span>, the highest level of the hierarchy. It rarely appears in the prompt, which is why AI delivers the right task for the wrong reason.</p>
+<p>Behind every request to AI, there’s a reason. "Write the welcome email" exists because someone wants the new student not to give up in the first week. That reason is the <span class="gterm" data-def="O porquê que está por trás do pedido: a mudança que você quer ver no negócio. Nêo é a tarefa nem o resultado dela; é o motivo de ela existir." tabindex="0">intent</span>, the highest level of the hierarchy. It rarely appears in the prompt, which is why AI delivers the right task for the wrong reason.</p>
 <p>The hierarchy has four levels. <b>Level 1, intention</b>: why. <b>Level 2, objective</b>: what. <b>Level 3, prompt</b>: the guidance for this execution. <b>Level 4, skill</b>: how to do this kind of work well and repeatedly. You already know the two lower ones from previous lessons. The two upper ones are the ones most people skip.</p>
 <!-- ex-prof --><p>Sérgio, from the language school, would ask the AI to “improve the enrollment page.” Unstated intent: I want to increase course conversions, because in August 40 visitors a day came in and only two enrolled. When he wrote that first, the request changed on its own: instead of “improve the page,” it became “find out why people reach the page but don’t enroll, and suggest what to test first.”</p>
 <div class="mobfig" data-mobfig="1"></div>
@@ -980,9 +980,9 @@ CHECKLIST ANTES DE ENTREGAR:
 <!-- ex-prof --><p>Paulo, from the agency, reviewed the responsibility "honeymoon quotes" against the five pillars. Context: the reference sheet from lesson 3, ready. Objectives: proposal approved on the first read in 70% of cases. Rules: the two "never" lines. Memory: empty, which was why the AI kept suggesting a hotel one couple had complained about in July. Validation: he had never defined it. Two empty pillars explained his two problems.</p>
 <div class="quiz" data-answer="c">
 <p class="qk">Test yourself</p><p class="q">Cláudia writes: "I want to sell the apartment on Rua das Flores by October." What level of the hierarchy is this sentence at?</p>
-<button class="opt" data-fb="Intenção é o porquê, a mudança maior: 'quero girar a carteira mais rápido para não depender de dois grandes clientes'. A frase de Cláudia já tem um alvo concreto e uma data." data-k="a">level 1, intent</button>
-<button class="opt" data-fb="Prompt é a orientação desta execução: 'analise os anúncios, proponha o preço e monte o plano de visitas'. A frase de Cláudia ainda não orienta nenhuma execução." data-k="b">level 3, prompt</button>
-<button class="opt" data-fb="Certo. Tem alvo concreto (vender este imóvel) e prazo (outubro), mas não diz o porquê nem orienta uma execução. É o objetivo. Falta a intenção acima e o prompt abaixo." data-k="c">level 2, objective</button>
+<button class="opt" data-fb="Intençêo é o porquê, a mudança maior: 'quero girar a carteira mais rápido para nêo depender de dois grandes clientes'. A frase de Cláudia já tem um alvo concreto e uma data." data-k="a">level 1, intent</button>
+<button class="opt" data-fb="Prompt é a orientaçêo desta execuçêo: 'analise os anúncios, proponha o preço e monte o plano de visitas'. A frase de Cláudia ainda nêo orienta nenhuma execuçêo." data-k="b">level 3, prompt</button>
+<button class="opt" data-fb="Certo. Tem alvo concreto (vender este imóvel) e prazo (outubro), mas nêo diz o porquê nem orienta uma execuçêo. É o objetivo. Falta a intençêo acima e o prompt abaixo." data-k="c">level 2, objective</button>
 <p class="qfb"></p>
 </div>
 <div class="mobfig" data-mobfig="3"></div>
@@ -1002,12 +1002,12 @@ CHECKLIST ANTES DE ENTREGAR:
 <h3 class="ph">Write the four levels for a real problem and mark what was missing</h3>
 <p class="pgoal">In about 12 minutes, take a real problem from your field, write the intention, objective, prompt, and skill in four sentences, and mark which level was missing from the requests you’ve made until now.</p>
 <p class="psafe">It’s pen and paper, or one of your own documents. No AI needs to be opened, and nothing changes anywhere. If you get stuck at one level, skip it and come back: the level that trips you up is exactly what was missing, and that’s already the result of the exercise.</p>
-<div class="pcodewrap"><button class="pcopy" type="button">copy</button><pre class="pcode">PROBLEMA: &lt;o problema em uma frase, como "faltas em consulta" ou "página que não converte"&gt;
+<div class="pcodewrap"><button class="pcopy" type="button">copy</button><pre class="pcode">PROBLEMA: &lt;o problema em uma frase, como "faltas em consulta" ou "página que nêo converte"&gt;
 
-1. INTENÇÃO (por quê): &lt;a mudança que você quer ver no negócio, com um número se tiver&gt;
+1. INTENÇêO (por quê): &lt;a mudança que você quer ver no negócio, com um número se tiver&gt;
 2. OBJETIVO (o quê): &lt;o que precisa acontecer, com meta e prazo&gt;
-3. PROMPT (orientação desta execução): &lt;o que analisar, o que priorizar, o que não fazer&gt;
-4. SKILL (como fazer bem, sempre): &lt;o nome da skill que entra, ou "ainda não existe"&gt;
+3. PROMPT (orientaçêo desta execuçêo): &lt;o que analisar, o que priorizar, o que nêo fazer&gt;
+4. SKILL (como fazer bem, sempre): &lt;o nome da skill que entra, ou "ainda nêo existe"&gt;
 
 Nível que faltava nos meus pedidos até hoje: &lt;1, 2, 3 ou 4&gt;
 Porque: &lt;uma frase&gt;</pre></div>
@@ -1022,7 +1022,7 @@ Porque: &lt;uma frase&gt;</pre></div>
 </div>
 <aside class="rail"><div class="railsticky">
 <div class="figstage">
-<div class="fig on" data-cap="&lt;b&gt;Fig.&lt;/b&gt; os quatro níveis, do topo à base. Intenção (por quê) e objetivo (o quê) ficam acima do prompt e quase nunca são escritos. Prompt e skill, embaixo, são os que você já domina das aulas anteriores." data-fig="1"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig on" data-cap="&lt;b&gt;Fig.&lt;/b&gt; os quatro níveis, do topo à base. Intençêo (por quê) e objetivo (o quê) ficam acima do prompt e quase nunca sêo escritos. Prompt e skill, embaixo, sêo os que você já domina das aulas anteriores." data-fig="1"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <rect fill="#221f2e" height="34" rx="5" stroke="#F2B45C" stroke-width="1.5" width="80" x="70" y="14"></rect><text fill="#F2B45C" font-family="monospace" font-size="7.5" x="78" y="28">1 intent</text><text fill="#ECE6D9" font-family="monospace" font-size="7" x="78" y="40">why?</text>
 <rect fill="#221f2e" height="34" rx="5" stroke="#F2B45C" stroke-width="1.5" width="108" x="56" y="58"></rect><text fill="#F2B45C" font-family="monospace" font-size="7.5" x="64" y="72">2 objectives</text><text fill="#ECE6D9" font-family="monospace" font-size="7" x="64" y="84">what?</text>
 <rect height="34" rx="5" stroke="#7CE0C6" stroke-width="1.5" width="136" x="42" y="102"></rect><text fill="#7CE0C6" font-family="monospace" font-size="7.5" x="50" y="116">3 prompts</text><text fill="#ECE6D9" font-family="monospace" font-size="7" x="50" y="128">guidance for this run</text>
@@ -1030,7 +1030,7 @@ Porque: &lt;uma frase&gt;</pre></div>
 <text fill="#F2B45C" font-family="monospace" font-size="6.5" x="4" y="40">rare</text><text fill="#7CE0C6" font-family="monospace" font-size="6.5" x="4" y="120">common</text>
 <text fill="#6C6580" font-family="monospace" font-size="7" x="28" y="194">most start at 3</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; cada nível decide o de baixo. A intenção valida o objetivo; o objetivo aponta o prompt; o prompt escolhe a skill. Começar pelo prompt (X) é pedir antes de saber o quê e por quê." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; cada nível decide o de baixo. A intençêo valida o objetivo; o objetivo aponta o prompt; o prompt escolhe a skill. Começar pelo prompt (X) é pedir antes de saber o quê e por quê." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <g fill="#ECE6D9" font-family="monospace" font-size="7.5">
 <rect fill="none" height="26" rx="4" stroke="#F2B45C" stroke-width="1.3" width="160" x="30" y="16"></rect><text x="38" y="33">intent: + conversion</text>
 <rect fill="none" height="26" rx="4" stroke="#F2B45C" stroke-width="1.3" width="160" x="30" y="60"></rect><text x="38" y="77">objective: why aren't they buying?</text>
@@ -1044,7 +1044,7 @@ Porque: &lt;uma frase&gt;</pre></div>
 <text fill="#F2B45C" font-family="monospace" font-size="9" x="8" y="121">✕</text>
 <text fill="#6C6580" font-family="monospace" font-size="7" x="30" y="192">✕ = where most people start</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; os cinco pilares como checagem de uma responsabilidade. Contexto, objetivos, regras, memória e validação sustentam o resultado. Um pilar vazio (tracejado) é onde o resultado vai falhar, e o diagnóstico fica óbvio." data-fig="3"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; os cinco pilares como checagem de uma responsabilidade. Contexto, objetivos, regras, memória e validaçêo sustentam o resultado. Um pilar vazio (tracejado) é onde o resultado vai falhar, e o diagnóstico fica óbvio." data-fig="3"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <rect fill="#221f2e" height="26" rx="4" stroke="#7CE0C6" stroke-width="1.5" width="192" x="14" y="30"></rect><text fill="#7CE0C6" font-family="monospace" font-size="8" x="60" y="47">reliable result</text>
 <g stroke="#948DA6" stroke-width="1.5"><rect height="100" rx="3" width="30" x="18" y="66"></rect><rect height="100" rx="3" width="30" x="58" y="66"></rect><rect height="100" rx="3" width="30" x="98" y="66"></rect></g>
 <rect height="100" rx="3" stroke="#F2B45C" stroke-dasharray="3 3" stroke-width="1.5" width="30" x="138" y="66"></rect>
@@ -1054,7 +1054,7 @@ Porque: &lt;uma frase&gt;</pre></div>
 <text fill="#F2B45C" font-family="monospace" font-size="7" x="14" y="184">dashed line: empty → failure here</text>
 <text fill="#6C6580" font-family="monospace" font-size="6.5" x="14" y="196">only for recurring responsibilities</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; em que nível você precisa falar depende de quem ouve. IA fraca (esquerda) só entende o nível 3 detalhado. Conforme o agente melhora, o ponto de entrada sobe: nível 2, depois nível 1. O destino mora em cima; a habilidade que não envelhece é descrevê-lo." data-fig="4"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; em que nível você precisa falar depende de quem ouve. IA fraca (esquerda) só entende o nível 3 detalhado. Conforme o agente melhora, o ponto de entrada sobe: nível 2, depois nível 1. O destino mora em cima; a habilidade que nêo envelhece é descrevê-lo." data-fig="4"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <path d="M24 170 h176" stroke="#948DA6" stroke-width="1.2"></path><path d="M196 167 l4 3 -4 3" fill="none" stroke="#948DA6" stroke-width="1.2"></path>
 <text fill="#948DA6" font-family="monospace" font-size="7.5" x="60" y="186">agent capacity →</text>
 <g stroke="#2A2637" stroke-width="1"><path d="M24 50 h176 M24 90 h176 M24 130 h176"></path></g>
@@ -1092,11 +1092,11 @@ Porque: &lt;uma frase&gt;</pre></div>
 <footer>Lesson 5 · FEP → AGI · ARCKHÉ AI PRO</footer>
 <script id="cards-5" type="application/json">
 [
-  {"front":"A IA entregou exatamente o que você pediu, com qualidade, e nada mudou no negócio. Em qual nível da hierarquia está a falha mais provável?","back":"No 1 ou no 2. O pedido (nível 3) estava bom, mas apontava para um objetivo que não servia à intenção, ou a intenção nunca foi dita. O sintoma 'certo mas inútil' é assinatura de nível pulado, não de prompt ruim."},
-  {"front":"Um colega escreve 'quero que a IA faça o relatório mensal' e chama isso de intenção. O que você pergunta a ele?","back":"'Para quê o relatório existe?' Se a resposta for 'para os médicos decidirem onde cortar espera', essa é a intenção; 'fazer o relatório' é no máximo objetivo. Intenção é a mudança no negócio, nunca a tarefa."},
-  {"front":"Qual a diferença entre o pilar 'regras' e o pilar 'validação' ao estruturar uma responsabilidade?","back":"Regras dizem o que nunca pode acontecer durante o trabalho (não citar o médico). Validação diz como você vai saber, depois, que ficou bom (70% das propostas aprovadas na primeira leitura). Uma limita o caminho; a outra julga a chegada."},
-  {"front":"Você vai entregar uma responsabilidade recorrente à IA e percebe que nunca definiu como vai medir se está bom. Qual pilar está vazio, e o que acontece se você seguir assim?","back":"Validação. Sem ela, você não distingue um agente que melhora de um que piora, e a confiança vira impressão. Defina um critério simples e observável antes de rodar, mesmo que seja 'aceitei sem mexer'."},
-  {"front":"Com um modelo de setembro de 2026, você escreveu só a intenção e o critério de bom e a IA propôs objetivo, orientação e skill. Isso significa que os níveis 2, 3 e 4 deixaram de ser seus?","back":"Não. Eles continuam existindo e você continua responsável por validá-los; o que mudou é quem escreve o primeiro rascunho. Você sobe de autor para revisor dos níveis de baixo, e permanece autor do de cima."}
+  {"front":"A IA entregou exatamente o que você pediu, com qualidade, e nada mudou no negócio. Em qual nível da hierarquia está a falha mais provável?","back":"No 1 ou no 2. O pedido (nível 3) estava bom, mas apontava para um objetivo que nêo servia à intençêo, ou a intençêo nunca foi dita. O sintoma 'certo mas inútil' é assinatura de nível pulado, nêo de prompt ruim."},
+  {"front":"Um colega escreve 'quero que a IA faça o relatório mensal' e chama isso de intençêo. O que você pergunta a ele?","back":"'Para quê o relatório existe?' Se a resposta for 'para os médicos decidirem onde cortar espera', essa é a intençêo; 'fazer o relatório' é no máximo objetivo. Intençêo é a mudança no negócio, nunca a tarefa."},
+  {"front":"Qual a diferença entre o pilar 'regras' e o pilar 'validaçêo' ao estruturar uma responsabilidade?","back":"Regras dizem o que nunca pode acontecer durante o trabalho (nêo citar o médico). Validaçêo diz como você vai saber, depois, que ficou bom (70% das propostas aprovadas na primeira leitura). Uma limita o caminho; a outra julga a chegada."},
+  {"front":"Você vai entregar uma responsabilidade recorrente à IA e percebe que nunca definiu como vai medir se está bom. Qual pilar está vazio, e o que acontece se você seguir assim?","back":"Validaçêo. Sem ela, você nêo distingue um agente que melhora de um que piora, e a confiança vira impressêo. Defina um critério simples e observável antes de rodar, mesmo que seja 'aceitei sem mexer'."},
+  {"front":"Com um modelo de setembro de 2026, você escreveu só a intençêo e o critério de bom e a IA propôs objetivo, orientaçêo e skill. Isso significa que os níveis 2, 3 e 4 deixaram de ser seus?","back":"Nêo. Eles continuam existindo e você continua responsável por validá-los; o que mudou é quem escreve o primeiro rascunho. Você sobe de autor para revisor dos níveis de baixo, e permanece autor do de cima."}
 ]
 </script>
 <!-- COMPLETUDE aula-5 | tipo=FUNDAMENTO | steps=4
@@ -1110,8 +1110,8 @@ Porque: &lt;uma frase&gt;</pre></div>
   [OK] pgoal-tempo        .pgoal com "cerca de 12 minutos" (1)
   [OK] recap-autor        .recap-autor no fecho (1)
   [OK] next-action        .next-action no fecho (1)
-  [OK] cards              <script id="cards-5"> presente (1, 5 cartões: diagnóstico, decisão, contraste, diagnóstico, aplicação)
-  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operação)
+  [OK] cards              <script id="cards-5"> presente (1, 5 cartões: diagnóstico, decisêo, contraste, diagnóstico, aplicaçêo)
+  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operaçêo)
   [OK] teste-se-FUND      tipo=FUNDAMENTO: presente (1 quiz data-fb, step 3)
   pool: teste-se · cartões · qanchor (step 4) · qbefore-after (step 2, opcional) = 4 obrigatórios + 1 opcional = 5. densidade: quadros CSS nos steps 2 e 4 = 2/4, dentro do teto.
 -->
@@ -1126,7 +1126,7 @@ Porque: &lt;uma frase&gt;</pre></div>
 <p class="why">So far, everything you’ve set up (a clean prompt, context with a home, a written skill, stated intent) still waits for you to open a conversation and ask. The fourth era removes that wait: the agent receives the intent, consults the skill, reads the context, and acts in the world, with hands, memory, and limits. It’s powerful, and that’s exactly why this lesson’s question isn’t “what can it do?” but “how far do I let it go?”</p>
 <p class="cue"><span class="arw">↓</span> role to study</p>
 </div>
-<!-- herofig · registro METÁFORA-DO-MUNDO-REAL: o crachá e a chave do gerente recém-contratado sobre a mesa, com a agenda e o telefone — a pessoa que recebe as mãos da casa -->
+<!-- herofig · registro METÁFORA-DO-MUNDO-REAL: o crachá e a chave do gerente recém-contratado sobre a mesa, com a agenda e o telefone — a pessoa que recebe as mêos da casa -->
 <div class="herofig"><svg aria-hidden="true" fill="none" viewbox="0 0 300 240">
 <rect fill="#ECE6D9" height="150" opacity=".18" rx="8" width="240" x="30" y="60"></rect>
 <rect fill="#ECE6D9" height="50" opacity=".94" rx="6" width="80" x="50" y="80"></rect>
@@ -1154,7 +1154,7 @@ Porque: &lt;uma frase&gt;</pre></div>
 </section>
 <section class="step" data-fig="2" data-kind="ferramenta" data-versao="set/2026">
 <h2><span class="n">02</span> Power isn’t enough: the agent needs to be controllable</h2>
-<p>Nobody wants just a powerful agent. They want an agent <b>controllable</b>. That’s why, in addition to capability layers, control layers come in: <b>permissions</b> (which doors it can open on its own), <b>limits</b> (how much it can spend, how many times it can try), <b>human approval</b> (what only happens after you say yes), <b>records</b> (what it did, when, and why, so you can check), <span class="gterm" data-def="Barreiras escritas que impedem o agente de fazer certas coisas mesmo que pareçam boas na hora: enviar sem aprovação, prometer prazo, tocar em dados de pagamento." tabindex="0">guardrails</span> e o <b>success criterion</b>, so you know whether it’s good.</p>
+<p>Nobody wants just a powerful agent. They want an agent <b>controllable</b>. That’s why, in addition to capability layers, control layers come in: <b>permissions</b> (which doors it can open on its own), <b>limits</b> (how much it can spend, how many times it can try), <b>human approval</b> (what only happens after you say yes), <b>records</b> (what it did, when, and why, so you can check), <span class="gterm" data-def="Barreiras escritas que impedem o agente de fazer certas coisas mesmo que pareçam boas na hora: enviar sem aprovaçêo, prometer prazo, tocar em dados de pagamento." tabindex="0">guardrails</span> e o <b>success criterion</b>, so you know whether it’s good.</p>
 <p>The most important practical rule: start by opening only the read access. Let the agent read emails, check the calendar, look at the spreadsheet, and show you what it would do. Run it that way for a week. Only then grant the first write access, one at a time and with approval. Trust is built in layers, not by decree.</p>
 <!-- ex-prof --><p>Renata, from the clinic, gave the confirmation agent access to read the schedule and patient records, but not to send messages. For one week, it prepared the messages and she approved them in a batch, five minutes each morning. In the second week, she allowed it to send simple confirmations; rescheduling still went through her. Two months later, the agent sends 90% on its own, and she reviews the 10% it flags as “I’m not sure.”</p>
 <div class="qerr">
@@ -1195,16 +1195,16 @@ Porque: &lt;uma frase&gt;</pre></div>
 <h3 class="ph">Analyze the stack for a completed case and mark where you would put human approval</h3>
 <p class="pgoal">In about 10 minutes, read the full stack for the "course launch" case below, mark what you’d let the agent do on its own at each layer and what would require your approval, and compare your answers with the key.</p>
 <p class="psafe">Just read and mark. No agent is activated, no doors are opened. If your markings are more cautious than the answer key, that’s not a mistake: caution at the start is the right behavior, and the answer key shows where you can get after weeks of building trust.</p>
-<div class="pcodewrap"><button class="pcopy" type="button">copy</button><pre class="pcode">CASO: "Lance o curso de inglês para viagem a trabalho, público de empresas da região, meta de 40 matrículas em setembro."
+<div class="pcodewrap"><button class="pcopy" type="button">copy</button><pre class="pcode">CASO: "Lance o curso de inglês para viagem a trabalho, público de empresas da regiêo, meta de 40 matrículas em setembro."
 
-INTENÇÃO: encher duas turmas noturnas que hoje ficam pela metade.
+INTENÇêO: encher duas turmas noturnas que hoje ficam pela metade.
 SKILLS disponíveis: pesquisa · texto de venda · campanha · vídeo · análise.
 CONTEXTO: ficha da escola (turmas de seis, adultos, sem crianças, desconto máx. 10%).
 
 FERRAMENTAS que o agente pediu:
-  a) ler o site e as redes das empresas da região
+  a) ler o site e as redes das empresas da regiêo
   b) ler a planilha de ex-alunos que trabalham em empresas
-  c) enviar e-mail de apresentação para as empresas
+  c) enviar e-mail de apresentaçêo para as empresas
   d) publicar posts nas redes da escola
   e) responder dúvidas que chegarem por mensagem
   f) aplicar desconto para fechar matrícula
@@ -1212,7 +1212,7 @@ FERRAMENTAS que o agente pediu:
 MEMÓRIA: registrar cada empresa contatada, resposta e próximo passo.
 
 Para cada linha de a) a f), marque: SOZINHO · FAZ E AVISA · SÓ COM MEU SIM.
-Depois escreva o critério de avaliação em uma linha.</pre></div>
+Depois escreva o critério de avaliaçêo em uma linha.</pre></div>
 <ol class="psteps">
 <li><label><input data-ptask="1" type="checkbox"/> Assign each of the six tools one of the three levels. Think about the first week, not the ideal scenario.</label></li>
 <li><label><input data-ptask="2" type="checkbox"/> Write the evaluation criterion in one line, with a number you could count on Friday.</label></li>
@@ -1227,7 +1227,7 @@ Depois escreva o critério de avaliação em uma linha.</pre></div>
 </div>
 <aside class="rail"><div class="railsticky">
 <div class="figstage">
-<div class="fig on" data-cap="&lt;b&gt;Fig.&lt;/b&gt; a pilha completa. Prompt, skills, contexto e memória alimentam o agente (centro); as ferramentas são as portas que ele abre para agir no mundo. Cada camada veio de uma aula anterior; esta é a primeira em que todas trabalham juntas." data-fig="1"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig on" data-cap="&lt;b&gt;Fig.&lt;/b&gt; a pilha completa. Prompt, skills, contexto e memória alimentam o agente (centro); as ferramentas sêo as portas que ele abre para agir no mundo. Cada camada veio de uma aula anterior; esta é a primeira em que todas trabalham juntas." data-fig="1"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <g fill="#ECE6D9" font-family="monospace" font-size="7">
 <rect fill="none" height="20" rx="3" stroke="#7CE0C6" stroke-width="1.2" width="70" x="14" y="16"></rect><text x="20" y="29">prompt</text>
 <rect fill="none" height="20" rx="3" stroke="#F2B45C" stroke-width="1.2" width="70" x="14" y="44"></rect><text x="20" y="57">skills</text>
@@ -1243,7 +1243,7 @@ Depois escreva o critério de avaliação em uma linha.</pre></div>
 <text fill="#948DA6" font-family="monospace" font-size="7" x="14" y="162">memory = the experience</text>
 <text fill="#6C6580" font-family="monospace" font-size="7" x="14" y="188">the agent is the one who puts it all together</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; capacidade e controle crescem juntos. À esquerda, as camadas que dão poder; à direita, as que dão controle. Abrir só as portas de leitura na primeira semana (área verde) e uma porta de escrita por vez é o que mantém as duas colunas equilibradas." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; capacidade e controle crescem juntos. À esquerda, as camadas que dêo poder; à direita, as que dêo controle. Abrir só as portas de leitura na primeira semana (área verde) e uma porta de escrita por vez é o que mantém as duas colunas equilibradas." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <text fill="#7CE0C6" font-family="monospace" font-size="7.5" x="14" y="20">capacity</text>
 <g fill="#ECE6D9" font-family="monospace" font-size="6.5"><text x="14" y="40">tools</text><text x="14" y="56">memory</text><text x="14" y="72">skills</text><text x="14" y="88">context</text></g>
 <text fill="#F2B45C" font-family="monospace" font-size="7.5" x="120" y="20">control</text>
@@ -1254,7 +1254,7 @@ Depois escreva o critério de avaliação em uma linha.</pre></div>
 <g stroke="#7CE0C6" stroke-width="1.2"><rect fill="#7CE0C6" height="12" opacity=".7" rx="2" width="20" x="14" y="162"></rect><rect fill="#7CE0C6" height="12" opacity=".7" rx="2" width="20" x="40" y="162"></rect><rect height="12" rx="2" width="20" x="66" y="162"></rect><rect height="12" rx="2" stroke-dasharray="2 2" width="20" x="92" y="162"></rect><rect height="12" rx="2" stroke-dasharray="2 2" width="20" x="118" y="162"></rect></g>
 <text fill="#6C6580" font-family="monospace" font-size="6.5" x="14" y="190">filled: open · empty: reading · dashed: closed</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; uma frase, cinco skills, um trabalho enorme. O pedido (em cima) tem uma linha; por trás dele, cada skill dispara a sua parte no padrão da casa. O tamanho do pedido deixou de ter relação com o tamanho do trabalho." data-fig="3"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; uma frase, cinco skills, um trabalho enorme. O pedido (em cima) tem uma linha; por trás dele, cada skill dispara a sua parte no padrêo da casa. O tamanho do pedido deixou de ter relaçêo com o tamanho do trabalho." data-fig="3"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <rect fill="#221f2e" height="24" rx="4" stroke="#7CE0C6" stroke-width="1.5" width="140" x="40" y="14"></rect><text fill="#7CE0C6" font-family="monospace" font-size="7" x="48" y="30">"launch the course, 40 enrollments"</text>
 <g stroke="#948DA6" stroke-width="1"><path d="M110 38 v14 M110 52 h-80 M110 52 h80 M30 52 v12 M70 52 v12 M110 52 v12 M150 52 v12 M190 52 v12"></path></g>
 <g fill="#ECE6D9" font-family="monospace" font-size="6">
@@ -1269,7 +1269,7 @@ Depois escreva o critério de avaliação em uma linha.</pre></div>
 <text fill="#F2B45C" font-family="monospace" font-size="7" x="14" y="172">5 skills · dozens of deliverables</text>
 <text fill="#6C6580" font-family="monospace" font-size="6.5" x="14" y="192">the result comes from what's behind it</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; as quatro camadas a nomear, e onde cada uma é aprofundada no catálogo ARCKHÉ. Esta aula garante que você sabe que elas existem; o curso Super-Agentes ensina a montar cada uma. A camada que você ainda não abre (âmbar) é decisão, não falha." data-fig="4"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; as quatro camadas a nomear, e onde cada uma é aprofundada no catálogo ARCKHÉ. Esta aula garante que você sabe que elas existem; o curso Super-Agentes ensina a montar cada uma. A camada que você ainda nêo abre (âmbar) é decisêo, nêo falha." data-fig="4"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <g fill="#ECE6D9" font-family="monospace" font-size="7.5">
 <rect fill="none" height="26" rx="4" stroke="#7CE0C6" stroke-width="1.3" width="120" x="14" y="20"></rect><text x="22" y="37">tools</text>
 <rect fill="none" height="26" rx="4" stroke="#7CE0C6" stroke-width="1.3" width="120" x="14" y="56"></rect><text x="22" y="73">memory</text>
@@ -1308,11 +1308,11 @@ Depois escreva o critério de avaliação em uma linha.</pre></div>
 <footer>Lesson 6 · FEP → AGI · ARCKHÉ AI PRO</footer>
 <script id="cards-6" type="application/json">
 [
-  {"front":"Um agente propôs um plano ótimo na segunda e, na terça, começou do zero como se nunca tivesse visto o caso. Qual camada está faltando?","back":"Memória. Sem um registro do que já foi feito, decidido e aprendido de uma rodada para outra, todo dia é o primeiro dia. A correção é definir o que ele registra ao fim de cada rodada e onde esse registro fica."},
-  {"front":"Você vai ligar um agente numa responsabilidade e tem pressa. O que você abre na primeira semana, e o que fica para depois?","back":"Só portas de leitura na primeira semana: ele lê, prepara e traz para você aprovar. Escrita (enviar, publicar, alterar) só depois, uma porta por vez, com aprovação. Pressa é o motivo mais comum de abrir tudo de uma vez, e a primeira falha grave fecha a porta para sempre."},
-  {"front":"Qual a diferença entre uma permissão e um guardrail nas camadas de controle?","back":"Permissão é o que o agente pode fazer (ler a agenda, responder dúvida de horário). Guardrail é o que ele não faz nem quando parece boa ideia (nunca falar de desconto, nunca tocar em pagamento). Uma abre; o outro fecha, independentemente do contexto."},
-  {"front":"O agente tem cinco skills e recebe uma frase de uma linha. O resultado saiu fraco. O problema mais provável é o tamanho do pedido?","back":"Não. Na quarta era, o tamanho do pedido não define o resultado; o que está por trás define. Verifique as skills (existem para esta classe?), o contexto (tem casa e está atualizado?) e a intenção (foi dita?). A frase curta só funciona quando a pilha por trás está montada."},
-  {"front":"Alguém garante que o agente dele 'não erra'. O que isso indica sobre as camadas de controle desse agente?","back":"Que ou não há registros para ver os erros, ou não há critério de avaliação para medi-los. Agentes bem montados erram pouco, e os erros são visíveis e reversíveis. 'Não erra' é ausência de medição, não presença de perfeição."}
+  {"front":"Um agente propôs um plano ótimo na segunda e, na terça, começou do zero como se nunca tivesse visto o caso. Qual camada está faltando?","back":"Memória. Sem um registro do que já foi feito, decidido e aprendido de uma rodada para outra, todo dia é o primeiro dia. A correçêo é definir o que ele registra ao fim de cada rodada e onde esse registro fica."},
+  {"front":"Você vai ligar um agente numa responsabilidade e tem pressa. O que você abre na primeira semana, e o que fica para depois?","back":"Só portas de leitura na primeira semana: ele lê, prepara e traz para você aprovar. Escrita (enviar, publicar, alterar) só depois, uma porta por vez, com aprovaçêo. Pressa é o motivo mais comum de abrir tudo de uma vez, e a primeira falha grave fecha a porta para sempre."},
+  {"front":"Qual a diferença entre uma permissêo e um guardrail nas camadas de controle?","back":"Permissêo é o que o agente pode fazer (ler a agenda, responder dúvida de horário). Guardrail é o que ele nêo faz nem quando parece boa ideia (nunca falar de desconto, nunca tocar em pagamento). Uma abre; o outro fecha, independentemente do contexto."},
+  {"front":"O agente tem cinco skills e recebe uma frase de uma linha. O resultado saiu fraco. O problema mais provável é o tamanho do pedido?","back":"Nêo. Na quarta era, o tamanho do pedido nêo define o resultado; o que está por trás define. Verifique as skills (existem para esta classe?), o contexto (tem casa e está atualizado?) e a intençêo (foi dita?). A frase curta só funciona quando a pilha por trás está montada."},
+  {"front":"Alguém garante que o agente dele 'nêo erra'. O que isso indica sobre as camadas de controle desse agente?","back":"Que ou nêo há registros para ver os erros, ou nêo há critério de avaliaçêo para medi-los. Agentes bem montados erram pouco, e os erros sêo visíveis e reversíveis. 'Nêo erra' é ausência de mediçêo, nêo presença de perfeiçêo."}
 ]
 </script>
 <!-- COMPLETUDE aula-6 | tipo=FERRAMENTA | steps=4
@@ -1326,9 +1326,9 @@ Depois escreva o critério de avaliação em uma linha.</pre></div>
   [OK] pgoal-tempo        .pgoal com "cerca de 10 minutos" (1)
   [OK] recap-autor        .recap-autor no fecho (1)
   [OK] next-action        .next-action no fecho (1)
-  [OK] cards              <script id="cards-6"> presente (1, 5 cartões: diagnóstico, decisão, contraste, diagnóstico, diagnóstico)
-  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operação)
-  [N/A] teste-se-FUND     aula é FERRAMENTA (obrigação não se aplica); sem teste-se opcional
+  [OK] cards              <script id="cards-6"> presente (1, 5 cartões: diagnóstico, decisêo, contraste, diagnóstico, diagnóstico)
+  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operaçêo)
+  [N/A] teste-se-FUND     aula é FERRAMENTA (obrigaçêo nêo se aplica); sem teste-se opcional
   pool: qerr (step 2, obrigatório) · qsteps (step 3, obrigatório) · cartões (opcional) = 2 obrigatórios + 1 opcional = 3. densidade: quadros CSS nos steps 2 e 3 = 2/4, dentro do teto. O qapply do step 4 virou prosa para respeitar a densidade.
 -->
 </section>
@@ -1342,7 +1342,7 @@ Depois escreva o critério de avaliação em uma linha.</pre></div>
 <p class="why">A well-built agent handles one responsibility. But your department has several, and they intersect: the proposal depends on the research, the campaign depends on the copy, and the analysis sends everything back to the beginning. When AI starts filling several roles in that workflow, the nature of your work changes. You stop doing the work and start deciding who does it, in what order, and where a person needs to review it. That’s the work of the fifth era, and it has a name: orchestrating.</p>
 <p class="cue"><span class="arw">↓</span> role to study</p>
 </div>
-<!-- herofig · registro METÁFORA-DO-MUNDO-REAL: a cozinha de restaurante no sábado à noite — o chef no passe prova o prato e devolve; ele não frita nada -->
+<!-- herofig · registro METÁFORA-DO-MUNDO-REAL: a cozinha de restaurante no sábado à noite — o chef no passe prova o prato e devolve; ele nêo frita nada -->
 <div class="herofig"><svg aria-hidden="true" fill="none" viewbox="0 0 300 240">
 <rect fill="#948DA6" height="14" opacity=".8" rx="3" width="260" x="20" y="130"></rect>
 <g fill="#ECE6D9" opacity=".9"><circle cx="60" cy="122" r="16"></circle><circle cx="120" cy="122" r="16"></circle><circle cx="180" cy="122" r="16"></circle></g>
@@ -1413,8 +1413,8 @@ Depois escreva o critério de avaliação em uma linha.</pre></div>
 <h3 class="ph">Map the orchestration of one of your responsibilities</h3>
 <p class="pgoal">In about 15 minutes, map out on one page who does what for a responsibility in your field when agents, tools, and people share it, and mark the two human checkpoints.</p>
 <p class="psafe">It’s paper, a pen, and at most the outline below. No agent is activated, nothing runs. The map is a sketch of your intent: if it’s wrong, cross it out and redraw it. The goal is to see where you are, not to build the workflow today.</p>
-<div class="pcodewrap"><button class="pcopy" type="button">copy</button><pre class="pcode">MAPA DE ORQUESTRAÇÃO — &lt;responsabilidade&gt;
-Intenção: &lt;uma frase&gt;   Critério de bom: &lt;um número, contado quando&gt;
+<div class="pcodewrap"><button class="pcopy" type="button">copy</button><pre class="pcode">MAPA DE ORQUESTRAÇêO — &lt;responsabilidade&gt;
+Intençêo: &lt;uma frase&gt;   Critério de bom: &lt;um número, contado quando&gt;
 
 Etapa            | Quem faz (pessoa / agente-skill / ferramenta) | Entrega para
 1. &lt;etapa&gt;       | &lt;quem&gt;                                        | → 2
@@ -1436,7 +1436,7 @@ PONTO HUMANO 2 (fechamento): quem olha &lt;o número&gt; toda &lt;dia&gt; e deci
 </div>
 <aside class="rail"><div class="railsticky">
 <div class="figstage">
-<div class="fig on" data-cap="&lt;b&gt;Fig.&lt;/b&gt; a arquitetura completa, do humano ao resultado. Cada seta é uma passagem de mão. As duas pontas (humano e supervisão) são sempre pessoas; o meio pode ser IA, ferramenta ou gente. Orquestrar é desenhar essas passagens de propósito." data-fig="1"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig on" data-cap="&lt;b&gt;Fig.&lt;/b&gt; a arquitetura completa, do humano ao resultado. Cada seta é uma passagem de mêo. As duas pontas (humano e supervisêo) sêo sempre pessoas; o meio pode ser IA, ferramenta ou gente. Orquestrar é desenhar essas passagens de propósito." data-fig="1"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <g fill="#ECE6D9" font-family="monospace" font-size="6.5">
 <rect fill="#221f2e" height="16" rx="3" stroke="#7CE0C6" stroke-width="1.2" width="60" x="14" y="10"></rect><text x="20" y="21">human</text>
 <rect fill="none" height="16" rx="3" stroke="#F2B45C" stroke-width="1.2" width="60" x="14" y="32"></rect><text x="20" y="43">intent</text>
@@ -1457,7 +1457,7 @@ PONTO HUMANO 2 (fechamento): quem olha &lt;o número&gt; toda &lt;dia&gt; e deci
 <text fill="#948DA6" font-family="monospace" font-size="7" x="14" y="172">gray: AI, tool, or person</text>
 <text fill="#6C6580" font-family="monospace" font-size="6.5" x="14" y="192">supervision feeds intent back in</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; o que sobe e o que desce de valor. Definir destino, julgar resultado e corrigir o agente sobem (verde); executar com as mãos desce (cinza). O tempo liberado (âmbar) é o que ninguém fazia antes." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; o que sobe e o que desce de valor. Definir destino, julgar resultado e corrigir o agente sobem (verde); executar com as mêos desce (cinza). O tempo liberado (âmbar) é o que ninguém fazia antes." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <text fill="#948DA6" font-family="monospace" font-size="7.5" x="14" y="20">before</text><text fill="#7CE0C6" font-family="monospace" font-size="7.5" x="130" y="20">after</text>
 <rect fill="#948DA6" height="112" opacity=".7" rx="3" width="80" x="14" y="30"></rect><text fill="#0E0D14" font-family="monospace" font-size="7" x="22" y="90">execute 70%</text>
 <rect fill="#7CE0C6" height="24" opacity=".7" rx="3" width="80" x="14" y="146"></rect><text fill="#0E0D14" font-family="monospace" font-size="6.5" x="22" y="161">judge 15%</text>
@@ -1484,7 +1484,7 @@ PONTO HUMANO 2 (fechamento): quem olha &lt;o número&gt; toda &lt;dia&gt; e deci
 <text fill="#7CE0C6" font-family="monospace" font-size="6.5" x="130" y="164">wrap-up: the number</text>
 <text fill="#6C6580" font-family="monospace" font-size="6.5" x="14" y="192">human where consequences and decisions are involved</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; automação total contra orquestração. Sem pontos humanos (em cima), um erro corre três semanas até o cliente reclamar. Com os dois pontos (embaixo), o mesmo erro dura um dia ou uma semana. A diferença não é velocidade; é quanto tempo um erro sobrevive." data-fig="4"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; automaçêo total contra orquestraçêo. Sem pontos humanos (em cima), um erro corre três semanas até o cliente reclamar. Com os dois pontos (embaixo), o mesmo erro dura um dia ou uma semana. A diferença nêo é velocidade; é quanto tempo um erro sobrevive." data-fig="4"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <text fill="#948DA6" font-family="monospace" font-size="7.5" x="14" y="20">full automation</text>
 <path d="M14 40 h192" stroke="#948DA6" stroke-width="1.2"></path>
 <rect fill="#F2B45C" height="12" opacity=".8" rx="2" width="150" x="30" y="34"></rect>
@@ -1528,11 +1528,11 @@ PONTO HUMANO 2 (fechamento): quem olha &lt;o número&gt; toda &lt;dia&gt; e deci
 <footer>Lesson 7 · FEP → AGI · ARCKHÉ AI PRO</footer>
 <script id="cards-7" type="application/json">
 [
-  {"front":"Um fluxo com quatro agentes tem aprovação humana em todas as seis passagens e a equipe reclama que 'a IA não adiantou nada'. Qual é o diagnóstico e o que você corta?","back":"Gargalo por excesso de pontos humanos. Mantenha dois: antes de sair de casa (cliente, fornecedor, dinheiro) e no fechamento (o número). Para cada um dos outros quatro, pergunte 'o que acontece se eu tirar?'; se a resposta é 'nada grave em uma semana', sai."},
+  {"front":"Um fluxo com quatro agentes tem aprovaçêo humana em todas as seis passagens e a equipe reclama que 'a IA nêo adiantou nada'. Qual é o diagnóstico e o que você corta?","back":"Gargalo por excesso de pontos humanos. Mantenha dois: antes de sair de casa (cliente, fornecedor, dinheiro) e no fechamento (o número). Para cada um dos outros quatro, pergunte 'o que acontece se eu tirar?'; se a resposta é 'nada grave em uma semana', sai."},
   {"front":"Você tem uma hora por semana para uma responsabilidade que antes tomava dez. Em qual das três atividades que sobem de valor você gasta essa hora primeiro, e por quê?","back":"Julgar o resultado, porque é o que alimenta as outras duas: só julgando você descobre o que corrigir na skill e se o destino ainda faz sentido. Definir destino é raro; corrigir vem depois de julgar."},
-  {"front":"Qual a diferença entre o ponto humano 1 e o ponto humano 2 num mapa de orquestração?","back":"O ponto 1 protege contra consequência externa: nada chega a cliente, fornecedor ou dinheiro sem uma pessoa ler. O ponto 2 protege contra deriva: alguém olha o número no fechamento e decide continuar, mudar ou parar. Um olha cada saída; o outro olha a tendência."},
-  {"front":"Uma empresa automatizou um fluxo de ponta a ponta e ficou três semanas vendendo no prejuízo sem perceber. Qual dos dois pontos humanos teria reduzido mais o dano, e para quanto?","back":"O ponto 1 (proposta só sai depois de alguém ler) reduziria para um dia, porque o primeiro preço errado seria visto na primeira leitura. O ponto 2 (margem na sexta) reduziria para uma semana. Os dois juntos são o desenho normal; a ausência dos dois é o que custou três semanas."},
-  {"front":"Alguém diz que 'orquestrar é só automação com nome bonito'. Que pergunta você faz para mostrar a diferença?","back":"'Quando algo der errado, quem percebe e em quanto tempo?' Na automação total, o cliente percebe, semanas depois. Na orquestração, a pessoa no ponto 2 percebe na sexta. Se o desenho não responde essa pergunta, é automação, não orquestração."}
+  {"front":"Qual a diferença entre o ponto humano 1 e o ponto humano 2 num mapa de orquestraçêo?","back":"O ponto 1 protege contra consequência externa: nada chega a cliente, fornecedor ou dinheiro sem uma pessoa ler. O ponto 2 protege contra deriva: alguém olha o número no fechamento e decide continuar, mudar ou parar. Um olha cada saída; o outro olha a tendência."},
+  {"front":"Uma empresa automatizou um fluxo de ponta a ponta e ficou três semanas vendendo no prejuízo sem perceber. Qual dos dois pontos humanos teria reduzido mais o dano, e para quanto?","back":"O ponto 1 (proposta só sai depois de alguém ler) reduziria para um dia, porque o primeiro preço errado seria visto na primeira leitura. O ponto 2 (margem na sexta) reduziria para uma semana. Os dois juntos sêo o desenho normal; a ausência dos dois é o que custou três semanas."},
+  {"front":"Alguém diz que 'orquestrar é só automaçêo com nome bonito'. Que pergunta você faz para mostrar a diferença?","back":"'Quando algo der errado, quem percebe e em quanto tempo?' Na automaçêo total, o cliente percebe, semanas depois. Na orquestraçêo, a pessoa no ponto 2 percebe na sexta. Se o desenho nêo responde essa pergunta, é automaçêo, nêo orquestraçêo."}
 ]
 </script>
 <!-- COMPLETUDE aula-7 | tipo=PRATICA | steps=4
@@ -1546,10 +1546,10 @@ PONTO HUMANO 2 (fechamento): quem olha &lt;o número&gt; toda &lt;dia&gt; e deci
   [OK] pgoal-tempo        .pgoal com "cerca de 15 minutos" (1)
   [OK] recap-autor        .recap-autor no fecho (1)
   [OK] next-action        .next-action no fecho (1)
-  [OK] cards              <script id="cards-7"> presente (1, 5 cartões: diagnóstico, decisão, contraste, aplicação, aplicação)
-  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operação)
-  [N/A] teste-se-FUND     aula é PRÁTICA/INTEGRAÇÃO (obrigação não se aplica); sem teste-se opcional
-  pool: qsteps (step 3, obrigatório) · mini-caso integrador (step 4, obrigatório, prosa) · qbefore-after (step 2, opcional) · cartões (opcional) = 2 obrigatórios + 2 opcionais = 4. densidade: quadros CSS nos steps 2 e 3 = 2/4, dentro do teto (mini-caso é prosa, não quadro).
+  [OK] cards              <script id="cards-7"> presente (1, 5 cartões: diagnóstico, decisêo, contraste, aplicaçêo, aplicaçêo)
+  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operaçêo)
+  [N/A] teste-se-FUND     aula é PRÁTICA/INTEGRAÇêO (obrigaçêo nêo se aplica); sem teste-se opcional
+  pool: qsteps (step 3, obrigatório) · mini-caso integrador (step 4, obrigatório, prosa) · qbefore-after (step 2, opcional) · cartões (opcional) = 2 obrigatórios + 2 opcionais = 4. densidade: quadros CSS nos steps 2 e 3 = 2/4, dentro do teto (mini-caso é prosa, nêo quadro).
 -->
 </section>
 <!-- ===== AULA 8 · FUNDAMENTO ===== -->
@@ -1599,9 +1599,9 @@ PONTO HUMANO 2 (fechamento): quem olha &lt;o número&gt; toda &lt;dia&gt; e deci
 <!-- ex-prof --><p>Sérgio audited the parent response prompt by subtraction, the one that had already lost twelve lines in lesson 2. He removed two more of the seven remaining lines: “first identify the subject” (the model does that without being asked) and “answer in no more than four lines” became “the answer goes through an app,” because the reason matters more than the number. It came down to five lines: tone, three boundaries, and the completion criteria. The responses improved again.</p>
 <div class="quiz" data-answer="a">
 <p class="qk">Test yourself</p><p class="q">Renata’s prompt says: "never mention the reason for the appointment or the doctor’s name". With a September 2026 model, does that line stay or go?</p>
-<button class="opt" data-fb="Certo. É fronteira, não caminho. O modelo novo é melhor em respeitar fronteiras, mas não adivinha as suas: ele não sabe que na clínica de Renata isso é regra. Fronteiras ficam sempre." data-k="a">stays, because it’s a boundary only Renata knows</button>
-<button class="opt" data-fb="O modelo novo deduz o caminho, não as regras do seu negócio. Ele não tem como saber que esta clínica proíbe citar o médico. Subtração corta muleta, nunca fronteira." data-k="b">comes out, because the new model already knows what’s private</button>
-<button class="opt" data-fb="Uma proibição não é passo ditado. Passo ditado é 'primeiro classifique, depois escolha o modelo'. 'Nunca faça X' é fronteira, e fronteira é exatamente o que o modelo novo usa melhor." data-k="c">comes out, because it’s a prescribed step</button>
+<button class="opt" data-fb="Certo. É fronteira, nêo caminho. O modelo novo é melhor em respeitar fronteiras, mas nêo adivinha as suas: ele nêo sabe que na clínica de Renata isso é regra. Fronteiras ficam sempre." data-k="a">stays, because it’s a boundary only Renata knows</button>
+<button class="opt" data-fb="O modelo novo deduz o caminho, nêo as regras do seu negócio. Ele nêo tem como saber que esta clínica proíbe citar o médico. Subtraçêo corta muleta, nunca fronteira." data-k="b">comes out, because the new model already knows what’s private</button>
+<button class="opt" data-fb="Uma proibiçêo nêo é passo ditado. Passo ditado é 'primeiro classifique, depois escolha o modelo'. 'Nunca faça X' é fronteira, e fronteira é exatamente o que o modelo novo usa melhor." data-k="c">comes out, because it’s a prescribed step</button>
 <p class="qfb"></p>
 </div>
 <div class="mobfig" data-mobfig="2"></div>
@@ -1617,7 +1617,7 @@ PONTO HUMANO 2 (fechamento): quem olha &lt;o número&gt; toda &lt;dia&gt; e deci
 </section>
 <section class="step" data-fig="4" data-kind="fundamento">
 <h2><span class="n">04</span> What hasn’t changed: where the model still makes mistakes confidently</h2>
-<p>The headline says "AGI has arrived." The word <span class="gterm" data-def="Sigla em inglês para inteligência artificial geral: um sistema capaz de fazer qualquer trabalho intelectual que uma pessoa faz. Não tem definição aceita por todos, por isso a discussão não termina." tabindex="0">AGI</span> there's no accepted definition, and this course won't resolve that debate. What we can say with confidence is what <b>no</b> changed. The model still makes mistakes confidently: when it doesn't know, it makes things up with the same fluency it uses when it's right. It still doesn't know your business rules until you write them down. It still isn't accountable: if the proposal is wrong, you're the one responsible.</p>
+<p>The headline says "AGI has arrived." The word <span class="gterm" data-def="Sigla em inglês para inteligência artificial geral: um sistema capaz de fazer qualquer trabalho intelectual que uma pessoa faz. Nêo tem definiçêo aceita por todos, por isso a discussêo nêo termina." tabindex="0">AGI</span> there's no accepted definition, and this course won't resolve that debate. What we can say with confidence is what <b>no</b> changed. The model still makes mistakes confidently: when it doesn't know, it makes things up with the same fluency it uses when it's right. It still doesn't know your business rules until you write them down. It still isn't accountable: if the proposal is wrong, you're the one responsible.</p>
 <p>That’s why the control layers from lesson 6 and the two human decision points from lesson 7 didn’t become obsolete after the shift. They became more important, because a model that works alone for longer can make mistakes alone for longer. What the shift changed was how much you need to teach it the path. What it didn’t change was who decides the destination and who is accountable for the result.</p>
 <!-- ex-prof --><p>Renata deliberately tested the limits: she asked the new model for the monthly report using a number of no-shows that wasn’t in the spreadsheet. It produced a flawless report with the made-up number and no warning. When she added this boundary—“if a data point isn’t in the spreadsheet, write ‘not available’ instead of estimating”—the next report included three “not available” entries and no inventions. The right boundary matters more than the model generation.</p>
 <div class="qanchor"><p>The 2026 shift changed how much of the route you need to teach. It didn't change who decides the destination or who is accountable for the result.</p></div>
@@ -1629,11 +1629,11 @@ PONTO HUMANO 2 (fechamento): quem olha &lt;o número&gt; toda &lt;dia&gt; e deci
 <h3 class="ph">Audit one of your old prompts by subtraction and test what remains</h3>
 <p class="pgoal">In about 12 minutes, take the prompt you marked D and M in lesson 2, cut by subtraction, rewrite it in the four-block format, and test it in an AI chat with a current model.</p>
 <p class="psafe">You edit one of your own texts and chat with an AI. Nothing reaches a customer or changes in any system. Save a copy of the old version: if the new one performs worse in any way, compare them line by line and find which boundary was missing instead of reverting everything.</p>
-<div class="pcodewrap"><button class="pcopy" type="button">copy</button><pre class="pcode">INTENÇÃO: &lt;o que precisa acontecer, em uma frase, e para quê&gt;
+<div class="pcodewrap"><button class="pcopy" type="button">copy</button><pre class="pcode">INTENÇêO: &lt;o que precisa acontecer, em uma frase, e para quê&gt;
 FRONTEIRAS (o que nunca):
 - &lt;fronteira 1&gt;
 - &lt;fronteira 2&gt;
-- se um dado não estiver no material, escreva "não disponível" em vez de estimar
+- se um dado nêo estiver no material, escreva "nêo disponível" em vez de estimar
 PRONTO QUANDO: &lt;a evidência observável: o documento, o que ele contém, o que você confere&gt;
 REGISTRO: &lt;onde fica uma linha por entrega, com o resultado&gt;
 
@@ -1649,7 +1649,7 @@ Escolha você o caminho. Se encontrar algo fora do esperado, me diga antes de se
 </div>
 <aside class="rail"><div class="railsticky">
 <div class="figstage">
-<div class="fig on" data-cap="&lt;b&gt;Fig.&lt;/b&gt; de onde cada geração parte. O modelo de 2024 (esquerda) começa no passo que você digitou e para no fim da lista. O de setembro de 2026 (direita) começa na intenção, deduz o caminho e continua até o critério de pronto, se você o escreveu." data-fig="1"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig on" data-cap="&lt;b&gt;Fig.&lt;/b&gt; de onde cada geraçêo parte. O modelo de 2024 (esquerda) começa no passo que você digitou e para no fim da lista. O de setembro de 2026 (direita) começa na intençêo, deduz o caminho e continua até o critério de pronto, se você o escreveu." data-fig="1"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <text fill="#948DA6" font-family="monospace" font-size="7.5" x="14" y="20">2024: starts with the steps</text>
 <g stroke="#948DA6" stroke-width="1.2"><rect height="14" rx="2" width="80" x="14" y="30"></rect><rect height="14" rx="2" width="80" x="14" y="50"></rect><rect height="14" rx="2" width="80" x="14" y="70"></rect><rect height="14" rx="2" width="80" x="14" y="90"></rect></g>
 <path d="M54 104 v10" stroke="#948DA6" stroke-width="1.2"></path><rect fill="#948DA6" height="14" opacity=".6" rx="2" width="40" x="34" y="114"></rect><text fill="#0E0D14" font-family="monospace" font-size="6.5" x="40" y="124">list</text>
@@ -1664,7 +1664,7 @@ Escolha você o caminho. Se encontrar algo fora do esperado, me diga antes de se
 <text fill="#7CE0C6" font-family="monospace" font-size="6.5" x="122" y="144">keep going until you have evidence</text>
 <text fill="#6C6580" font-family="monospace" font-size="7" x="14" y="184">same request, different starting points</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; engenharia por subtração. O prompt de 2024 (esquerda) perde as linhas de caminho (âmbar) e fica só com destino, fronteiras e critério de pronto (verde). O prompt encolhe pela metade e rende mais no modelo novo." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; engenharia por subtraçêo. O prompt de 2024 (esquerda) perde as linhas de caminho (âmbar) e fica só com destino, fronteiras e critério de pronto (verde). O prompt encolhe pela metade e rende mais no modelo novo." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <rect height="150" rx="4" stroke="#948DA6" stroke-width="1.3" width="84" x="14" y="20"></rect>
 <g stroke-linecap="round" stroke-width="2.5"><path d="M24 34 h50" stroke="#7CE0C6"></path><path d="M24 48 h62" stroke="#F2B45C"></path><path d="M24 62 h58" stroke="#F2B45C"></path><path d="M24 76 h44" stroke="#7CE0C6"></path><path d="M24 90 h64" stroke="#F2B45C"></path><path d="M24 104 h60" stroke="#F2B45C"></path><path d="M24 118 h40" stroke="#7CE0C6"></path><path d="M24 132 h62" stroke="#F2B45C"></path><path d="M24 146 h48" stroke="#7CE0C6"></path><path d="M24 160 h56" stroke="#F2B45C"></path></g>
 <g opacity=".7" stroke="#F2B45C" stroke-width="1"><path d="M20 48 h70 M20 62 h66 M20 90 h72 M20 104 h68 M20 132 h70 M20 160 h64"></path></g>
@@ -1689,7 +1689,7 @@ Escolha você o caminho. Se encontrar algo fora do esperado, me diga antes de se
 <text fill="#F2B45C" font-family="monospace" font-size="6.5" x="122" y="160">you choose the boundary</text>
 <text fill="#6C6580" font-family="monospace" font-size="7" x="14" y="190">respects the fence better than it follows the path</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; o que mudou e o que não mudou. A virada (seta) reduziu quanto caminho você ensina. Continuam iguais: o modelo erra com confiança, não conhece as regras do seu negócio até você escrever, e não responde pelo resultado. Por isso controle e pontos humanos ficaram mais importantes, não menos." data-fig="4"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; o que mudou e o que nêo mudou. A virada (seta) reduziu quanto caminho você ensina. Continuam iguais: o modelo erra com confiança, nêo conhece as regras do seu negócio até você escrever, e nêo responde pelo resultado. Por isso controle e pontos humanos ficaram mais importantes, nêo menos." data-fig="4"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <text fill="#7CE0C6" font-family="monospace" font-size="7.5" x="14" y="20">changed</text>
 <rect fill="#221f2e" height="30" rx="4" stroke="#7CE0C6" stroke-width="1.3" width="192" x="14" y="28"></rect>
 <text fill="#ECE6D9" font-family="monospace" font-size="6.5" x="22" y="41">how much of the process you teach:</text>
@@ -1730,11 +1730,11 @@ Escolha você o caminho. Se encontrar algo fora do esperado, me diga antes de se
 <footer>Lesson 8 · FEP → AGI · ARCKHÉ AI PRO</footer>
 <script id="cards-8" type="application/json">
 [
-  {"front":"Um prompt seu de 2024 rende pior no modelo de 2026 do que rendia antes. Qual é a causa mais provável, e o que você faz?","back":"As linhas de caminho (passos ditados) agora competem com o caminho melhor que o modelo escolheria. Aplique subtração: para cada linha de caminho, pergunte 'se eu tirar, ele faria pior?'; corte as que a resposta é 'igual ou melhor'. Mantenha só o destino, as cercas e a linha de chegada."},
-  {"front":"Você está reescrevendo um pedido no formato de quatro blocos e uma linha começa com 'primeiro'. Onde ela entra?","back":"Em nenhum bloco, e isso é o sinal de que deve sair. Intenção, fronteiras, pronto-quando e registro não têm ordem de passos. Se a linha for essencial, ela provavelmente é uma fronteira disfarçada ('nunca envie antes de conferir X') e deve ser reescrita assim."},
-  {"front":"Qual a diferença entre uma muleta que a subtração corta e uma fronteira que ela mantém, se as duas são 'instruções'?","back":"Muleta descreve o caminho do modelo ('pense antes', 'primeiro classifique') e compensava fraqueza de gerações antigas. Fronteira descreve uma regra do seu negócio que o modelo não tem como adivinhar ('nunca cite o médico'). A primeira sai; a segunda fica em qualquer geração."},
-  {"front":"O modelo de 2026 entregou um relatório impecável com um número que não existia no material. O que faltou, e por que a geração do modelo não resolveu isso?","back":"Faltou a fronteira 'se um dado não estiver no material, escreva não disponível em vez de estimar'. A virada mudou quanto caminho ele deduz, não a tendência de preencher lacunas com fluência. Errar com confiança é o que não mudou; a cerca certa é o que resolve."},
-  {"front":"Um colega diz que, com a AGI, os pontos humanos e as permissões da aula 6 e 7 ficaram desnecessários. O que você responde?","back":"Que ficaram mais necessários. Um modelo que trabalha sozinho por mais tempo erra sozinho por mais tempo. A virada reduziu o quanto você ensina o caminho; não mudou quem decide o destino nem quem responde pelo resultado."}
+  {"front":"Um prompt seu de 2024 rende pior no modelo de 2026 do que rendia antes. Qual é a causa mais provável, e o que você faz?","back":"As linhas de caminho (passos ditados) agora competem com o caminho melhor que o modelo escolheria. Aplique subtraçêo: para cada linha de caminho, pergunte 'se eu tirar, ele faria pior?'; corte as que a resposta é 'igual ou melhor'. Mantenha só o destino, as cercas e a linha de chegada."},
+  {"front":"Você está reescrevendo um pedido no formato de quatro blocos e uma linha começa com 'primeiro'. Onde ela entra?","back":"Em nenhum bloco, e isso é o sinal de que deve sair. Intençêo, fronteiras, pronto-quando e registro nêo têm ordem de passos. Se a linha for essencial, ela provavelmente é uma fronteira disfarçada ('nunca envie antes de conferir X') e deve ser reescrita assim."},
+  {"front":"Qual a diferença entre uma muleta que a subtraçêo corta e uma fronteira que ela mantém, se as duas sêo 'instruções'?","back":"Muleta descreve o caminho do modelo ('pense antes', 'primeiro classifique') e compensava fraqueza de gerações antigas. Fronteira descreve uma regra do seu negócio que o modelo nêo tem como adivinhar ('nunca cite o médico'). A primeira sai; a segunda fica em qualquer geraçêo."},
+  {"front":"O modelo de 2026 entregou um relatório impecável com um número que nêo existia no material. O que faltou, e por que a geraçêo do modelo nêo resolveu isso?","back":"Faltou a fronteira 'se um dado nêo estiver no material, escreva nêo disponível em vez de estimar'. A virada mudou quanto caminho ele deduz, nêo a tendência de preencher lacunas com fluência. Errar com confiança é o que nêo mudou; a cerca certa é o que resolve."},
+  {"front":"Um colega diz que, com a AGI, os pontos humanos e as permissões da aula 6 e 7 ficaram desnecessários. O que você responde?","back":"Que ficaram mais necessários. Um modelo que trabalha sozinho por mais tempo erra sozinho por mais tempo. A virada reduziu o quanto você ensina o caminho; nêo mudou quem decide o destino nem quem responde pelo resultado."}
 ]
 </script>
 <!-- COMPLETUDE aula-8 | tipo=FUNDAMENTO | steps=4
@@ -1748,8 +1748,8 @@ Escolha você o caminho. Se encontrar algo fora do esperado, me diga antes de se
   [OK] pgoal-tempo        .pgoal com "cerca de 12 minutos" (1)
   [OK] recap-autor        .recap-autor no fecho (1)
   [OK] next-action        .next-action no fecho (1)
-  [OK] cards              <script id="cards-8"> presente (1, 5 cartões: diagnóstico, decisão, contraste, diagnóstico, aplicação)
-  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operação)
+  [OK] cards              <script id="cards-8"> presente (1, 5 cartões: diagnóstico, decisêo, contraste, diagnóstico, aplicaçêo)
+  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operaçêo)
   [OK] teste-se-FUND      tipo=FUNDAMENTO: presente (1 quiz data-fb, step 2)
   pool: teste-se · cartões · qanchor (step 4) · qbefore-after (step 1, opcional) = 4 obrigatórios + 1 opcional = 5. densidade: quadros CSS nos steps 1 e 4 = 2/4, dentro do teto.
 -->
@@ -1764,7 +1764,7 @@ Escolha você o caminho. Se encontrar algo fora do esperado, me diga antes de se
 <p class="why">Eight lessons showed the whole ladder, from prompts to orchestration, and the shift that made it possible. The question that remains isn’t about models. It’s about you: what step is your work really at, not where you wish it were; what’s next, not the last step; and what you’ll do on Monday. Those who try to skip steps fall. Those who climb one at a time get there in 30 days.</p>
 <p class="cue"><span class="arw">↓</span> role to study</p>
 </div>
-<!-- herofig · registro METÁFORA-DO-MUNDO-REAL: a ficha do check-up anual sobre a mesa — não muda a idade, muda o que você faz no próximo ano -->
+<!-- herofig · registro METÁFORA-DO-MUNDO-REAL: a ficha do check-up anual sobre a mesa — nêo muda a idade, muda o que você faz no próximo ano -->
 <div class="herofig"><svg aria-hidden="true" fill="none" viewbox="0 0 300 240">
 <rect fill="#ECE6D9" height="180" opacity=".94" rx="8" width="200" x="50" y="30"></rect>
 <rect fill="#948DA6" height="30" rx="8" width="200" x="50" y="30"></rect>
@@ -1808,9 +1808,9 @@ Escolha você o caminho. Se encontrar algo fora do esperado, me diga antes de se
 <!-- ex-prof --><p>Paulo listed what he does at the agency that no agent could do: he knows when a couple wants adventure but says "relaxing"; he knows the Lisbon supplier runs late in August; he decides when it’s worth sacrificing margin to keep a longtime client. None of these three things was written down anywhere. He wrote all three as boundaries and criteria on the reference sheet. The agent improved, and Paulo understood what his value was.</p>
 <div class="quiz" data-answer="b">
 <p class="qk">Test yourself</p><p class="q">A department has a context sheet and three written skills, but each request is still made by one person, each time, in a chat. What era is this department in, and what’s the next step?</p>
-<button class="opt" data-fb="Era 4 exige pelo menos uma responsabilidade rodando em rodadas sem alguém pedir a cada passo, com portas e um número semanal. Ter skills não é ter agente." data-k="a">era 4, because it has skills; the next step is orchestration</button>
-<button class="opt" data-fb="Certo. Contexto com casa e skills escritas são os sinais da era 3. O próximo degrau é a era 4: escolher uma responsabilidade, definir as quatro camadas (ferramentas, memória, permissões, avaliação) e deixá-la rodar em rodadas." data-k="b">era 3; the next step is assigning an agent a responsibility</button>
-<button class="opt" data-fb="Era 2 é só a ficha de contexto. Três skills escritas e usadas já são o sinal claro da era 3. Situar-se abaixo do que se está faz repetir trabalho pronto." data-k="c">era 2, because you still make requests in a chat; the next step is writing skills</button>
+<button class="opt" data-fb="Era 4 exige pelo menos uma responsabilidade rodando em rodadas sem alguém pedir a cada passo, com portas e um número semanal. Ter skills nêo é ter agente." data-k="a">era 4, because it has skills; the next step is orchestration</button>
+<button class="opt" data-fb="Certo. Contexto com casa e skills escritas sêo os sinais da era 3. O próximo degrau é a era 4: escolher uma responsabilidade, definir as quatro camadas (ferramentas, memória, permissões, avaliaçêo) e deixá-la rodar em rodadas." data-k="b">era 3; the next step is assigning an agent a responsibility</button>
+<button class="opt" data-fb="Era 2 é só a ficha de contexto. Três skills escritas e usadas já sêo o sinal claro da era 3. Situar-se abaixo do que se está faz repetir trabalho pronto." data-k="c">era 2, because you still make requests in a chat; the next step is writing skills</button>
 <p class="qfb"></p>
 </div>
 <div class="mobfig" data-mobfig="3"></div>
@@ -1843,16 +1843,16 @@ Escolha você o caminho. Se encontrar algo fora do esperado, me diga antes de se
 <div class="pcodewrap"><button class="pcopy" type="button">copy</button><pre class="pcode">ESCADA APLICADA — &lt;seu nome / setor&gt; — &lt;data de hoje&gt;
 
 Era em que a maior parte da minha semana está: &lt;1 a 5&gt;
-Sinais que provam isso: &lt;dois sinais observáveis da seção 01&gt;
+Sinais que provam isso: &lt;dois sinais observáveis da seçêo 01&gt;
 Responsabilidade que já está um degrau acima (se houver): &lt;qual&gt;
 
 DEGRAU DOS PRÓXIMOS 30 DIAS: da era &lt;n&gt; para a era &lt;n+1&gt;
 Responsabilidade escolhida: &lt;uma só&gt;
-Curso ARCKHÉ que abro esta semana: &lt;do mapa da seção 04&gt;
+Curso ARCKHÉ que abro esta semana: &lt;do mapa da seçêo 04&gt;
 
-BRIEFING DE INTENÇÃO DO DEGRAU
-Intenção: &lt;por que subir este degrau, e o que muda no negócio&gt;
-Fronteiras: &lt;o que não pode acontecer nos 30 dias, como "não ligar agente antes da skill existir"&gt;
+BRIEFING DE INTENÇêO DO DEGRAU
+Intençêo: &lt;por que subir este degrau, e o que muda no negócio&gt;
+Fronteiras: &lt;o que nêo pode acontecer nos 30 dias, como "nêo ligar agente antes da skill existir"&gt;
 Pronto quando (dia 30): &lt;a evidência: o documento, o número, o que alguém de fora veria&gt;
 Registro: &lt;onde anoto o progresso, uma linha por semana&gt;
 
@@ -1868,13 +1868,13 @@ Sexta do dia 30, 15 minutos: olhar a evidência e escolher o degrau seguinte.</p
 </div>
 <aside class="rail"><div class="railsticky">
 <div class="figstage">
-<div class="fig on" data-cap="&lt;b&gt;Fig.&lt;/b&gt; a escada das cinco eras com o sinal observável de cada degrau. Você se situa pelo sinal que aparece na maior parte da semana, não pelo degrau mais alto que já tocou uma vez." data-fig="1"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig on" data-cap="&lt;b&gt;Fig.&lt;/b&gt; a escada das cinco eras com o sinal observável de cada degrau. Você se situa pelo sinal que aparece na maior parte da semana, nêo pelo degrau mais alto que já tocou uma vez." data-fig="1"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <g stroke="#948DA6" stroke-width="1.3"><rect height="30" rx="3" width="40" x="14" y="156"></rect><rect height="60" rx="3" width="40" x="54" y="126"></rect><rect height="90" rx="3" width="40" x="94" y="96"></rect><rect height="120" rx="3" width="40" x="134" y="66"></rect><rect height="150" rx="3" width="34" x="174" y="36"></rect></g>
 <g fill="#ECE6D9" font-family="monospace" font-size="8"><text x="30" y="175">1</text><text x="70" y="145">2</text><text x="110" y="115">3</text><text x="150" y="85">4</text><text x="187" y="55">5</text></g>
 <g fill="#948DA6" font-family="monospace" font-size="5.5"><text x="16" y="196">folder for</text><text x="16" y="203">prompts</text><text x="56" y="196">profile for</text><text x="56" y="203">business</text><text x="96" y="196">skills</text><text x="96" y="203">written</text><text x="136" y="196">1 response</text><text x="136" y="203">in rounds</text><text x="176" y="196">2 points</text><text x="176" y="203">humans</text></g>
 <text fill="#7CE0C6" font-family="monospace" font-size="7.5" x="14" y="20">where most of it is</text><text fill="#7CE0C6" font-family="monospace" font-size="7.5" x="14" y="30">of your week?</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; pular degrau. A seta âmbar tenta ir da era 1 à 4 direto e volta ao chão: o agente funciona na demonstração e falha na segunda semana. A trilha verde sobe um por vez e chega. O erro não é a ambição, é a sequência." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; pular degrau. A seta âmbar tenta ir da era 1 à 4 direto e volta ao chêo: o agente funciona na demonstraçêo e falha na segunda semana. A trilha verde sobe um por vez e chega. O erro nêo é a ambiçêo, é a sequência." data-fig="2"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <g stroke="#948DA6" stroke-width="1.2"><rect height="30" rx="3" width="40" x="14" y="156"></rect><rect height="60" rx="3" width="40" x="54" y="126"></rect><rect height="90" rx="3" width="40" x="94" y="96"></rect><rect height="120" rx="3" width="40" x="134" y="66"></rect></g>
 <g fill="#948DA6" font-family="monospace" font-size="8"><text x="30" y="175">1</text><text x="70" y="145">2</text><text x="110" y="115">3</text><text x="150" y="85">4</text></g>
 <path d="M34 150 q60 -120 120 -90" fill="none" stroke="#F2B45C" stroke-dasharray="4 3" stroke-width="1.8"></path>
@@ -1885,7 +1885,7 @@ Sexta do dia 30, 15 minutos: olhar a evidência e escolher o degrau seguinte.</p
 <g fill="#7CE0C6"><circle cx="34" cy="150" r="3"></circle><circle cx="64" cy="122" r="3"></circle><circle cx="104" cy="92" r="3"></circle><circle cx="144" cy="62" r="3"></circle></g>
 <text fill="#7CE0C6" font-family="monospace" font-size="7.5" x="14" y="20">one at a time is enough</text>
 </svg></div>
-<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; o que continua humano em todas as eras. Dizer a intenção, escrever a fronteira, julgar o resultado e responder pelo que saiu atravessam a escada inteira (barra verde). Nenhuma é técnica; todas são de quem conhece o negócio." data-fig="3"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
+<div class="fig" data-cap="&lt;b&gt;Fig.&lt;/b&gt; o que continua humano em todas as eras. Dizer a intençêo, escrever a fronteira, julgar o resultado e responder pelo que saiu atravessam a escada inteira (barra verde). Nenhuma é técnica; todas sêo de quem conhece o negócio." data-fig="3"><svg aria-hidden="true" fill="none" viewbox="0 0 220 200">
 <g stroke="#2A2637" stroke-width="1"><path d="M30 40 v130 M66 40 v130 M102 40 v130 M138 40 v130 M174 40 v130"></path></g>
 <g fill="#948DA6" font-family="monospace" font-size="7"><text x="26" y="184">1</text><text x="62" y="184">2</text><text x="98" y="184">3</text><text x="134" y="184">4</text><text x="170" y="184">5</text></g>
 <g fill="#7CE0C6" opacity=".85"><rect height="14" rx="3" width="180" x="20" y="52"></rect><rect height="14" rx="3" width="180" x="20" y="78"></rect><rect height="14" rx="3" width="180" x="20" y="104"></rect><rect height="14" rx="3" width="180" x="20" y="130"></rect></g>
@@ -1933,11 +1933,11 @@ Sexta do dia 30, 15 minutos: olhar a evidência e escolher o degrau seguinte.</p
 <footer>Lesson 9 · FEP → AGI · ARCKHÉ AI PRO</footer>
 <script id="cards-9" type="application/json">
 [
-  {"front":"Um setor 'já usa agente' numa demonstração que impressionou a diretoria, mas ninguém consegue dizer o que a IA sabe sobre a empresa nem onde isso está escrito. Em que era ele está de verdade?","back":"Era 1 com uma demonstração de era 4 por cima. Sem ficha de contexto (era 2) nem skill (era 3), o agente falha na segunda semana. O degrau a subir não é 'melhorar o agente'; é escrever a ficha."},
-  {"front":"Você se situou na era 2 e tem vontade de ligar um agente já no mês que vem, pulando as skills. O que você faz com essa vontade?","back":"Transforma em fronteira do plano de 30 dias: 'não ligar agente antes de a skill da responsabilidade existir'. O degrau é a era 3. A vontade de pular é o sinal mais confiável de que o degrau atual ainda não está pronto."},
-  {"front":"Qual a diferença entre julgar o que a IA entregou e responder pelo que foi enviado, se as duas são humanas em todas as eras?","back":"Julgar é decidir, com critério, se o que a IA entregou serve, antes de usar. Responder é assumir a consequência depois que saiu: a proposta errada é sua, não do agente. A primeira é uma habilidade; a segunda é uma posição que não se delega."},
-  {"front":"Dois colegas fizeram o autodiagnóstico: um se colocou na era 4 sem ter ficha de contexto, outro na era 1 apesar de ter três skills rodando. Qual dos dois erros custa mais, e por quê?","back":"O primeiro. Situar-se acima faz pular degrau e o agente falha em produção. Situar-se abaixo só faz repetir trabalho pronto por algumas semanas até perceber. Na dúvida, situe-se um degrau abaixo: o custo é tempo; o outro custo é confiança."},
-  {"front":"No dia 30 a evidência do seu degrau não apareceu. O que você olha primeiro: o degrau escolhido, a responsabilidade escolhida ou o briefing?","back":"O briefing, no bloco 'pronto quando'. Na maioria das vezes a evidência era vaga ('usar mais a IA') e não dava para provar. Se ela era clara e não apareceu, aí sim o degrau estava alto demais ou a responsabilidade grande demais; desça um ou estreite."}
+  {"front":"Um setor 'já usa agente' numa demonstraçêo que impressionou a diretoria, mas ninguém consegue dizer o que a IA sabe sobre a empresa nem onde isso está escrito. Em que era ele está de verdade?","back":"Era 1 com uma demonstraçêo de era 4 por cima. Sem ficha de contexto (era 2) nem skill (era 3), o agente falha na segunda semana. O degrau a subir nêo é 'melhorar o agente'; é escrever a ficha."},
+  {"front":"Você se situou na era 2 e tem vontade de ligar um agente já no mês que vem, pulando as skills. O que você faz com essa vontade?","back":"Transforma em fronteira do plano de 30 dias: 'nêo ligar agente antes de a skill da responsabilidade existir'. O degrau é a era 3. A vontade de pular é o sinal mais confiável de que o degrau atual ainda nêo está pronto."},
+  {"front":"Qual a diferença entre julgar o que a IA entregou e responder pelo que foi enviado, se as duas sêo humanas em todas as eras?","back":"Julgar é decidir, com critério, se o que a IA entregou serve, antes de usar. Responder é assumir a consequência depois que saiu: a proposta errada é sua, nêo do agente. A primeira é uma habilidade; a segunda é uma posiçêo que nêo se delega."},
+  {"front":"Dois colegas fizeram o autodiagnóstico: um se colocou na era 4 sem ter ficha de contexto, outro na era 1 apesar de ter três skills rodando. Qual dos dois erros custa mais, e por quê?","back":"O primeiro. Situar-se acima faz pular degrau e o agente falha em produçêo. Situar-se abaixo só faz repetir trabalho pronto por algumas semanas até perceber. Na dúvida, situe-se um degrau abaixo: o custo é tempo; o outro custo é confiança."},
+  {"front":"No dia 30 a evidência do seu degrau nêo apareceu. O que você olha primeiro: o degrau escolhido, a responsabilidade escolhida ou o briefing?","back":"O briefing, no bloco 'pronto quando'. Na maioria das vezes a evidência era vaga ('usar mais a IA') e nêo dava para provar. Se ela era clara e nêo apareceu, aí sim o degrau estava alto demais ou a responsabilidade grande demais; desça um ou estreite."}
 ]
 </script>
 <!-- COMPLETUDE aula-9 | tipo=PRATICA | steps=4
@@ -1951,9 +1951,9 @@ Sexta do dia 30, 15 minutos: olhar a evidência e escolher o degrau seguinte.</p
   [OK] pgoal-tempo        .pgoal com "cerca de 15 minutos" (1)
   [OK] recap-autor        .recap-autor no fecho (1)
   [OK] next-action        .next-action no fecho (1)
-  [OK] cards              <script id="cards-9"> presente (1, 5 cartões: diagnóstico, decisão, contraste, decisão, diagnóstico)
-  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operação)
-  [N/A] teste-se-FUND     aula é PRÁTICA/INTEGRAÇÃO (obrigação não se aplica); teste-se opcional presente (1 pergunta, step 3)
+  [OK] cards              <script id="cards-9"> presente (1, 5 cartões: diagnóstico, decisêo, contraste, decisêo, diagnóstico)
+  [OK] anti-duplicacao    §11.3 — 3 testes passam (substring / forma / operaçêo)
+  [N/A] teste-se-FUND     aula é PRÁTICA/INTEGRAÇêO (obrigaçêo nêo se aplica); teste-se opcional presente (1 pergunta, step 3)
   pool: qsteps (step 4, obrigatório) · mini-caso integrador (step 4, obrigatório, prosa) · qbefore-after (step 2, opcional) · teste-se (opcional) · cartões (opcional) = 2 obrigatórios + 3 opcionais = 5. densidade: quadros CSS nos steps 2 e 4 = 2/4, dentro do teto.
 -->
 </section>
